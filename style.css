@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Bold.ttf') format('truetype'),
+        url('font/Raleway-ExtraBold.ttf') format('truetype'),
+        url('font/Raleway-ExtraLight.ttf') format('truetype'),
+        url('font/Raleway-Light.ttf') format('truetype'),
+        url('font/Raleway-Medium.ttf') format('truetype'),
+        url('font/Raleway-Regular.ttf') format('truetype'),
+        url('font/Raleway-SemiBold.ttf') format('truetype'),
+        url('font/Raleway-Thin.ttf') format('truetype'),        
+}
+
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    margin: 4em;
+}
+
+#blocHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+#blocLogo {
+   width: 70%;
+   margin-top: -1em;
+}
+
+#blocMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 30%
+}
+
+#inscription {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 3em;
+}
+
+.map_marker_icon {
+    width: 60%; 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+}
+
+#searchBloc1 {
+    width: 10%;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#searchBloc2 {
+    width: 35%;    
+}
+
+
+#searchBloc3 {
+    width: 20%;
+    background-color: #0065FC;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;  
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-indent: 12px;
+}
+
+.conteneur-1 {
+    width: 65%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#photo1 {
+    width: 230px;
+   
+}
+
+#photo2 {
+    width: 230px;
+}
+
+#photo3 {
+    width: 230px;
+}
+
+#photo4 {
+    width: 230px;
+  
+}
+
+#photo5 {
+    width: 230px;
+}
+
+#photo6 {
+    width: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1024px){
+    #blocMenu {
+        width: auto;
+        
+    }
+}
+
+
+
