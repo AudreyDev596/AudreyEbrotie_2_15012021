@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="/Users/audreyebrotie/Documents/fontawesome/css/all.css" />
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a {
+            color: black;
+        }
+
+        /* CSS link color */
+    </style>
     <title>Reservia</title>
 </head>
 
@@ -15,21 +24,21 @@
 
         <div id="blocLogo">
             <a href="index.html"><img src="images/logo/Reservia.svg"></a>
-            <p>
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                En plein centre ville ou en pleine nature
-            </p>
+
+            <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+            <div class="thin_text">En plein centre ville ou en pleine nature</div>
+
         </div>
 
         <div id="blocMenu">
-            <div id="hebergements">
-                <a href="#blocLogo">Hébergements</a>
+            <div id="hebergements_menu">
+                <a href="#hosting" class="current">Hébergements</a>
             </div>
-            <div id="activites">
-                <a href="#">Activités</a>
+            <div id="activites_menu">
+                <a href="#activities">Activités</a>
             </div>
-            <div id="inscription">
-                <a href="#">S'inscrire</a>
+            <div id="inscription_menu">
+                <a href="#" style="font-weight: bold; color: #0065FC;">S'inscrire</a>
             </div>
         </div>
 
@@ -39,17 +48,17 @@
     <!-- Formulaire de recherche -->
     <section id="searchForm">
 
-        <div id="searchForm">
-            <div id="searchBloc1"><img class="map_marker_icon" src="images/map_marker.svg" alt="map marker icon">
+        <div id="bloc_searchForm">
+            <div id="searchBloc1"><i class="fas fa-map-marker-alt" id="map_marker_icon"></i>
             </div>
 
             <div id="searchBloc2">
-
+                <!-- rendre le champ saisissable -->
             </div>
 
-            <div id="searchBloc3"><a href="#" style="display: block; width: 100px; height: 35px;">
-                    <p>Rechercher</p>
-                </a>
+            <div id="searchBloc3">
+                Rechercher
+
             </div>
         </div>
 
@@ -57,46 +66,91 @@
 
     <!-- Filtres de recherche -->
     <section id="filters">
+        <div id="bloc_filtres">
+
+            <div id="titre_filtres">
+                <h4>Filtres</h4>
+            </div>
+            <div id="bloc_economicFilter">
+                <div id="economic_icon"><i class="fas fa-money-bill-wave"></i>
+                </div>
+                <div id="economic_text">Économique
+                </div>
+            </div>
+
+            <div id="bloc_familyFilter">
+                <div id="family_icon"><i class="fas fa-child"></i>
+                </div>
+                <div id="family_text">Familial
+                </div>
+            </div>
+
+            <div id="bloc_romanticFilter">
+                <div id="romantic_icon"><i class="fas fa-heart"></i>
+                </div>
+                <div id="romantic_text">Romantique
+                </div>
+            </div>
+
+            <div id="bloc_petfriendlyFilter">
+                <div id="pet_icon"><i class="fas fa-dog"></i>
+                </div>
+                <div id="petfriendly_text">Animaux autorisés
+                </div>
+            </div>
+
+
+        </div>
+        <div id="info_icon"><i class="fas fa-info-circle"
+                style="background-color: #0065FC; color: rgb(255, 255, 255);"></i>
+            <span>Plus de 500 logements sont disponibles dans cette ville</span></div>
+
+
+
     </section>
 
     <!-- Section 1 : Hébergements à Marseille  -->
     <section id="hosting">
 
-        <div id="conteneur-1">
+        <div id="bloc_hebergements">
             <div id="titre_hebergements">
-                <h2>Hébergements à Marseille</h2>
+                <h3>Hébergements à Marseille</h3>
             </div>
             <div id="card1-1"><img src="images/hebergements/small-rd/auberge_la_cannebiere.jpg"
-                    alt="Photo Auberge la Cannebiere">
+                    alt="Photo Auberge la Cannebiere" class="photos">
             </div>
 
-            <div id="card2-1"><img id="photo2" src="images/hebergements/small-rd/hotel_du_port.jpg"
-                    alt="Photo Hotel du port">
+            <div id="card2-1"><img src="images/hebergements/small-rd/hotel_du_port.jpg" alt="Photo Hotel du port"
+                    class="photos">
             </div>
 
             <div id="card3-1"><img src="images/hebergements/small-rd/hotel_les_mouettes.jpg"
-                    alt="Photo Hotel les mouettes">
+                    alt="Photo Hotel les mouettes" class="photos">
             </div>
 
-            <div id="card4-1"><img src="images/hebergements/small-rd/hotel_de_la_mer.jpg" alt="Photo hotel de la mer">
+            <div id="card4-1"><img src="images/hebergements/small-rd/hotel_de_la_mer.jpg" alt="Photo hotel de la mer"
+                    class="photos">
             </div>
 
             <div id="card5-1"><img src="images/hebergements/small-rd/auberge_le_panier.jpg"
-                    alt="Photo Auberge Le Panier">
+                    alt="Photo Auberge Le Panier" class="photos">
             </div>
 
-            <div id="card6-1"><img src="images/hebergements/small-rd/hotel_chez_amina.jpg" alt="Photo Hotel chez Amina">
+            <div id="card6-1"><img src="images/hebergements/small-rd/hotel_chez_amina.jpg" alt="Photo Hotel chez Amina"
+                    class="photos">
             </div>
-
 
         </div>
 
 
+
         <!-- Les plus populaires -->
 
-        <div id="conteneur-2">
+        <div id="bloc_populaires">
             <div id="titre_populaires">
-                <h2>Les plus populaires</h2>
+                <h3>Les plus populaires</h3>
+                <i class="fas fa-chart-line fa-lg" id="chart_icon"></i>
+
             </div>
             <div id="card1-2"><img src="images/hebergements/small-rd/hotel_le_soleil_du_matin.jpg"
                     alt="Photo Hotel Le soleil du matin">
@@ -118,25 +172,25 @@
             <h2>Activités à Marseille</h2>
         </div>
 
-        <div id="activites">
+        <div id="bloc_activites">
 
-            <div id="conteneur-3">
-                <div id="card1-3"><img src="images/activites/vieux_port.jpg" alt="Vieux Port"></div>
+            <div id="sousbloc-1">
+                <div id="card1-1"><img src="images/activites/vieux_port.jpg" alt="Vieux Port"></div>
             </div>
-            <div id="conteneur-4">
-                <div id="card1-4"><img src="images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues"></div>
+            <div id="sousbloc-2">
+                <div id="card1-2"><img src="images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues"></div>
 
-                <div id="card2-4"><img src="images/activites/iles_du_frioul.jpg" alt="Iles du frioul"></div>
+                <div id="card2-2"><img src="images/activites/iles_du_frioul.jpg" alt="Iles du frioul"></div>
             </div>
-            <div id="conteneur-5">
-                <div id="card1-5"><img src="images/activites/pn_des_calanques.jpg" alt="Parc National des Calanques">
+            <div id="sousbloc-3">
+                <div id="card1-3"><img src="images/activites/pn_des_calanques.jpg" alt="Parc National des Calanques">
                 </div>
             </div>
-            <div id="conteneur-6">
-                <div id="card1-6"><img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde">
+            <div id="sousbloc-4">
+                <div id="card1-4"><img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde">
                 </div>
 
-                <div id="card2-6"><img src="images/activites/parc_longchamp.jpg" alt="Parc Longchamp"></div>
+                <div id="card2-4"><img src="images/activites/parc_longchamp.jpg" alt="Parc Longchamp"></div>
 
             </div>
         </div>
