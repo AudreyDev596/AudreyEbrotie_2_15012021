@@ -133,6 +133,27 @@ a:hover {
     color: #0065FC;
 }
 
+#economic_icon_reversed {
+    background-color: #0065FC;
+    padding: 1.1em 0.9em 0 0.9em;
+    border-radius: 60%;
+    z-index: 99;
+    color:#DEEBFF ;
+}
+
+#economic_icon_reversed {
+    display: none;
+}
+
+#bloc_economicFilter:hover #economic_icon_reversed {
+    display:block;
+    cursor: pointer;
+}
+
+#bloc_economicFilter:hover #economic_icon {
+	display:none;
+}
+
 #economic_text {
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
@@ -143,7 +164,7 @@ a:hover {
     font-weight: bold;
 }
 
-#economic_text:hover {
+#bloc_economicFilter:hover #economic_text {
     background-color: #DEEBFF;
     border: solid #DEEBFF;
     border-width: 3px 3px 3px 0;
@@ -166,6 +187,27 @@ a:hover {
     color: #0065FC;
 }
 
+#family_icon_reversed {
+    background-color: #0065FC;
+    padding: 1.1em 1.2em 0 1.2em;
+    border-radius: 60%;
+    z-index: 99;
+    color:#DEEBFF;
+}
+
+#family_icon_reversed {
+    display: none;
+}
+
+#bloc_familyFilter:hover #family_icon_reversed {
+    display:block;
+    cursor: pointer;
+}
+
+#bloc_familyFilter:hover #family_icon {
+	display:none;
+}
+
 #family_text {
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
@@ -176,7 +218,7 @@ a:hover {
     font-weight: bold;
 }
 
-#family_text:hover {
+#bloc_familyFilter:hover #family_text {
     background-color: #DEEBFF;
     border: solid #DEEBFF;
     border-width: 3px 3px 3px 0;
@@ -199,6 +241,27 @@ a:hover {
     color: #0065FC;
 }
 
+#romantic_icon_reversed {
+    background-color: #0065FC;
+    padding: 1.1em 1em 0 1em;
+    border-radius: 60%;
+    z-index: 99;
+    color:#DEEBFF ;
+}
+
+#romantic_icon_reversed {
+    display: none;
+}
+
+#bloc_romanticFilter:hover #romantic_icon_reversed {
+    display:block;
+    cursor: pointer;
+}
+
+#bloc_romanticFilter:hover #romantic_icon {
+	display:none;
+}
+
 #romantic_text{
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
@@ -209,12 +272,12 @@ a:hover {
     font-weight: bold;
 }
 
-#romantic_text:hover {
-        background-color: #DEEBFF;
-        border: solid #DEEBFF;
-        border-width: 3px 3px 3px 0;
-        cursor: pointer;
-        color: #0065FC;
+#bloc_romanticFilter:hover #romantic_text {
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-width: 3px 3px 3px 0;
+    cursor: pointer;
+    color: #0065FC;
 }
 
 #bloc_petfriendlyFilter{
@@ -232,6 +295,27 @@ a:hover {
     color: #0065FC;
 }
 
+#pet_icon_reversed {
+    background-color: #0065FC;
+    padding: 1.1em 1em 0 1em;
+    border-radius: 60%;
+    z-index: 99;
+    color:#DEEBFF ;
+}
+
+#pet_icon_reversed {
+    display: none;
+}
+
+#bloc_petfriendlyFilter:hover #pet_icon_reversed {
+    display:block;
+    cursor: pointer;
+}
+
+#bloc_petfriendlyFilter:hover #pet_icon {
+	display:none;
+}
+
 #petfriendly_text {
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
@@ -242,7 +326,7 @@ a:hover {
     font-weight: bold;
 }
 
-#petfriendly_text:hover {
+#bloc_petfriendlyFilter:hover #petfriendly_text {
     background-color: #DEEBFF;
     border: solid #DEEBFF;
     border-width: 3px 3px 3px 0;
@@ -274,7 +358,7 @@ span {
     width: 65%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 1em 2em 2em 2em;
+    padding: 1em 2em 3em 2em;
     margin-top: 2em;
     display: flex;
     flex-direction: row;
@@ -287,6 +371,16 @@ span {
     width: 200px;
     height: 133px;
     border-radius: 12%;
+    
+}
+
+#text_card {
+    width: 190px;
+    height: 50px;
+    margin-top: -4em;
+    padding-left: 1em;
+    background-color: white;
+    opacity: 0.99;
 }
 
 #card1-1 {
@@ -308,26 +402,23 @@ span {
 }
 
 #card4-1 {
-    margin: 0 0 2em 0;
+    margin-right: 2em;
+    margin-bottom: 3em;
     height: 133px;  
     width: 200px;
 }
 
 #card5-1 {
-    margin: 0 0 2em 0;
+    margin-right: 2em;
     height: 133px;  
     width: 200px;
 }
 
 #card6-1 {
-    margin: 0 0 2em 0;
     height: 133px;  
     width: 200px;
 }
 
-.bold_text {
-    font-weight: bold;
-}
 
 /* Les plus populaires */
 
