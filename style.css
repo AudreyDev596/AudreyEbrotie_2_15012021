@@ -366,7 +366,7 @@ span {
     margin-right: 3%;
 }
 
-.photos {
+.photos_hebergements {
     border: solid white 5px;
     width: 200px;
     height: auto;
@@ -374,16 +374,16 @@ span {
 }
 
 .text_card {
-    width: 190px;
-    height: 55px;
+    width: 193px;
+    height: 58px;
     margin-top: -2.6em;
     padding: 0.5em 0 0 1.5em;
     background-color: white;
     opacity: 0.99;
     font-size: 11px;
     font-weight: thin;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #titre_card1 {
@@ -397,7 +397,7 @@ span {
     width: 210px;
     height: auto; 
     background-color: white;   
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 3px 3px 15px grey;
 }
 
@@ -412,7 +412,7 @@ span {
     width: 210px;
     height: auto; 
     background-color: white;   
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 3px 3px 15px grey;
 }
 
@@ -423,11 +423,11 @@ span {
 }
 
 #card3-1 {
-    margin: 0 0 2em 0;
+    margin: 0 1.5em 2em 0;
     width: 210px;
     height: auto; 
     background-color: white;   
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 3px 3px 15px grey;
 }
 
@@ -442,7 +442,7 @@ span {
     width: 210px;
     height: auto; 
     background-color: white;   
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 3px 3px 15px grey;
 }
 
@@ -457,7 +457,7 @@ span {
     width: 210px;
     height: auto; 
     background-color: white;   
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 3px 3px 15px grey;
 }
 
@@ -468,17 +468,18 @@ span {
 }
 
 #card6-1 {
-    margin: 0 0 2em 0;
+    margin: 0 1.5em 2em 0;
     width: 210px;
     height: auto; 
     background-color: white;   
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 3px 3px 15px grey;
 }
 
 .stars {
     display: flex;
     flex-direction: row;
+    margin-top: 5px;
 }
 
 .emptystars {
@@ -516,31 +517,121 @@ span {
 #titre_activites {
     width: auto;
     margin-top: 4em;
+    font-size: 17px;
 }
 
 #bloc_activites {
-    width: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3em;
+}
+
+.photos_activites {
+    width: 270px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#sousbloc_activites1 {
     display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;  
 }
 
-#sousbloc-1 {
-    width: 25%;
-    display: flex;  
-}
-
-#sousbloc-2{
-    width: 25%; 
-}
-
-#sousbloc-3 {
-    width: 25%;
+#sousbloc_activites2 {
     display: flex;
-    flex-direction: row;   
+    flex-direction: column; 
+    flex-wrap: wrap;    
 }
 
-#sousbloc-4 {
-    width: 25%;
+#sousbloc_activites3 {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    margin-bottom: 2.5em;   
 }
+
+#sousbloc_activites4 {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;   
+}
+
+#sousbloc_activites5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+#sousbloc_activites5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin-bottom: 2.5em;
+}
+
+#activities_card1 {
+    width: 270px;
+    height: 378px;  
+    border-radius: 20px;
+    margin-right: 2em;
+    box-shadow: 3px 3px 15px lightgrey;
+    margin : 0 2em 2.5em 0;
+}
+
+#activities_card2 {
+    width: 270px;
+    height: 180px;  
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px lightgrey;
+    margin: 0 2em 2.5em 0;
+}
+
+#activities_card3 {
+    width: 270px;
+    height: 154px;  
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px lightgrey;
+    margin : 0 0 0.5em 0;
+}
+
+#activities_card4 {
+    width: 270px;
+    height: 378px;  
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px lightgrey;
+    margin: 0 2em 2.5em 0;
+}
+
+#activities_card5 {
+    width: 270px;
+    height: 154px;  
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px lightgrey;
+    margin : 0 0 2.5em 0;
+}
+
+#activities_card6 {
+    width: 270px;
+    height: 180px;  
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px lightgrey;
+    margin : 0 0 2.5em 0;
+}
+
+.activities_text_card {
+    width: 247px;
+    height: 35px;
+    margin-top: -3.5em;
+    padding: 1em 0 0 1.5em;
+    background-color: white;
+    opacity: 0.99;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 
 /* Footer */
 
