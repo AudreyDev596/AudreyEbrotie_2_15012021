@@ -69,30 +69,39 @@ a:hover {
 
 #searchBloc1 {
     width: 9%;
-   
+    height: 3em;
     background-color: #F2F2F2;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 #searchBloc2 {
-    width: 35%;  
-   
+    width: 33%; 
+    height: auto; 
+}
+
+input {
+    height: 3.3em;
+    border: solid #F2F2F2 1px;
+}
+
+::placeholder {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 0.8em;
+    color: black;
 }
 
 #searchBloc3 {
     width: 17%;
-  
+    height: auto;
     background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;  
-}
-
-#searchBloc3 {
     color: white;
     font-size: 15px;
     font-weight: bold;
-    padding: 1em 0 0 1.3em;  
+    padding: 1em 0 0 1em;
 }
 
 #searchBloc3:hover {
@@ -348,6 +357,7 @@ span {
 #hosting {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #titre_hebergements {
@@ -373,7 +383,7 @@ span {
     border-radius: 20px;
 }
 
-.text_card {
+.hosting_text_card {
     width: 193px;
     height: 58px;
     margin-top: -2.6em;
@@ -494,22 +504,88 @@ span {
 
 #bloc_populaires {
     width: 25%;
+    height: auto;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 1em 2em 2em 2em;
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
+    margin-top: 2em; 
 }
 
 #titre_populaires {
     display: flex;
     flex-direction: row;
-    width: 110%;
+    width: 100%;
 }
 
 #chart_icon {
-    padding: 1em 0 0 4em;
+    padding: 1em 0 0 5em;
+}
+
+.photos_populaires {
+    border: solid white 5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+}
+
+.popular_text_card {
+    width: 100%;
+    height: auto;
+    margin-left: -2em;
+    padding: 1.5em 2em 0 1.5em;
+    background-color: white;
+    opacity: 0.99;
+    font-size: 11px;
+    font-weight: thin;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#titre_card1-2 {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+#card1-2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 3px 15px lightgrey;
+}
+
+#titre_card2-2 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#card2-2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 3px 15px lightgrey;
+}
+
+#titre_card3-2 {
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+#card3-2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 3px 15px lightgrey;
 }
 
 /* Activités */
