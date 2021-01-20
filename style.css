@@ -355,7 +355,7 @@ span {
 }
 
 #bloc_hebergements {
-    width: 65%;
+    width: 60%;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 1em 2em 3em 2em;
@@ -369,56 +369,125 @@ span {
 .photos {
     border: solid white 5px;
     width: 200px;
-    height: 133px;
-    border-radius: 12%;
-    
+    height: auto;
+    border-radius: 20px;
 }
 
-#text_card {
+.text_card {
     width: 190px;
-    height: 50px;
-    margin-top: -4em;
-    padding-left: 1em;
+    height: 55px;
+    margin-top: -2.6em;
+    padding: 0.5em 0 0 1.5em;
     background-color: white;
     opacity: 0.99;
+    font-size: 11px;
+    font-weight: thin;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#titre_card1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #card1-1 {
-    margin: 0 2em 2em 0;
-    height: 133px;  
-    width: 200px;
+    margin: 0 1.5em 2em 0;
+    width: 210px;
+    height: auto; 
+    background-color: white;   
+    border-radius: 15%;
+    box-shadow: 3px 3px 15px grey;
+}
+
+#titre_card2-1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #card2-1 {
-    margin: 0 2em 2em 0;
-    height: 133px;  
-    width: 200px;
+    margin: 0 1.5em 2em 0;
+    width: 210px;
+    height: auto; 
+    background-color: white;   
+    border-radius: 15%;
+    box-shadow: 3px 3px 15px grey;
+}
+
+#titre_card3-1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #card3-1 {
     margin: 0 0 2em 0;
-    height: 133px;  
-    width: 200px;
+    width: 210px;
+    height: auto; 
+    background-color: white;   
+    border-radius: 15%;
+    box-shadow: 3px 3px 15px grey;
+}
+
+#titre_card4-1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #card4-1 {
-    margin-right: 2em;
-    margin-bottom: 3em;
-    height: 133px;  
-    width: 200px;
+    margin: 0 1.5em 2em 0;
+    width: 210px;
+    height: auto; 
+    background-color: white;   
+    border-radius: 15%;
+    box-shadow: 3px 3px 15px grey;
+}
+
+#titre_card5-1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #card5-1 {
-    margin-right: 2em;
-    height: 133px;  
-    width: 200px;
+    margin: 0 1.5em 2em 0;
+    width: 210px;
+    height: auto; 
+    background-color: white;   
+    border-radius: 15%;
+    box-shadow: 3px 3px 15px grey;
+}
+
+#titre_card6-1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #card6-1 {
-    height: 133px;  
-    width: 200px;
+    margin: 0 0 2em 0;
+    width: 210px;
+    height: auto; 
+    background-color: white;   
+    border-radius: 15%;
+    box-shadow: 3px 3px 15px grey;
 }
 
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.emptystars {
+    color: #F2F2F2;
+}
+
+.fullstars {
+    color: #0065FC;
+}
 
 /* Les plus populaires */
 
