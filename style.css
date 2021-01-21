@@ -176,7 +176,7 @@ input:hover {
 
 #economic_icon {
     background-color: #DEEBFF;
-    padding: 1.1em 0.9em 0 0.9em;
+    padding: 1em 0.9em 0 0.9em;
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
@@ -184,7 +184,7 @@ input:hover {
 
 #economic_icon_reversed {
     background-color: #0065FC;
-    padding: 1.1em 0.9em 0 0.9em;
+    padding: 1em 0.9em 0 0.9em;
     border-radius: 60%;
     z-index: 99;
     color:#DEEBFF ;
@@ -206,7 +206,7 @@ input:hover {
 #economic_text {
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
-    padding: 0.9em 1em 0 2em;
+    padding: 0.8em 1em 0 2em;
     margin-left: -1.5em;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -230,7 +230,7 @@ input:hover {
 
 #family_icon {
     background-color: #DEEBFF;
-    padding: 1.1em 1.2em 0 1.2em;
+    padding: 1em 1.2em 0 1.2em;
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
@@ -238,7 +238,7 @@ input:hover {
 
 #family_icon_reversed {
     background-color: #0065FC;
-    padding: 1.1em 1.2em 0 1.2em;
+    padding: 1em 1.2em 0 1.2em;
     border-radius: 60%;
     z-index: 99;
     color:#DEEBFF;
@@ -260,7 +260,7 @@ input:hover {
 #family_text {
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
-    padding: 0.9em 1em 0 2em;
+    padding: 0.8em 1em 0 2em;
     margin-left: -1.5em;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -284,7 +284,7 @@ input:hover {
 
 #romantic_icon {
     background-color: #DEEBFF;
-    padding: 1.1em 1em 0 1em;
+    padding: 1em 1em 0 1em;
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
@@ -292,7 +292,7 @@ input:hover {
 
 #romantic_icon_reversed {
     background-color: #0065FC;
-    padding: 1.1em 1em 0 1em;
+    padding: 1em 1em 0 1em;
     border-radius: 60%;
     z-index: 99;
     color:#DEEBFF ;
@@ -314,7 +314,7 @@ input:hover {
 #romantic_text{
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
-    padding: 0.9em 1em 0 2em;
+    padding: 0.8em 1em 0 2em;
     margin-left: -1.5em;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -346,7 +346,7 @@ input:hover {
 
 #pet_icon_reversed {
     background-color: #0065FC;
-    padding: 1.1em 1em 0 1em;
+    padding: 1em 1em 0 1em;
     border-radius: 60%;
     z-index: 99;
     color:#DEEBFF ;
@@ -368,7 +368,7 @@ input:hover {
 #petfriendly_text {
     border: solid #F2F2F2;
     border-width: 3px 3px 3px 0;
-    padding: 0.9em 1em 0 2em;
+    padding: 0.8em 1em 0 2em;
     margin-left: -1.5em;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
