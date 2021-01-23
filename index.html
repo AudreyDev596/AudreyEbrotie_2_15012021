@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
-
 <html lang="en">
 
 <head>
@@ -18,19 +17,14 @@
 </head>
 
 <body>
-
     <!-- Header : logo, menu -->
-    <div id="blocHeader">
-
-        <div id="blocLogo">
+    <div id="bloc_header">
+        <div id="bloc_logo">
             <a href="index.html"><img src="images/logo/Reservia.svg"></a>
-
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             En plein centre ville ou en pleine nature<br>
-
         </div>
-
-        <div id="blocMenu">
+        <div id="bloc_menu">
             <div id="hebergements_menu">
                 <a href="#hosting" class="current">Hébergements</a>
             </div>
@@ -38,411 +32,328 @@
                 <a href="#activities" class="hover_menu">
                     Activités</a>
             </div>
-
             <div id="inscription_menu">
                 <a href="#" class="hover_menu" style="font-weight: bold; color: #0065FC;">S'inscrire</a>
             </div>
         </div>
-
     </div>
-
-
     <!-- Formulaire de recherche -->
-    <section id="searchForm">
-
-        <div id="bloc_searchForm">
-            <div id="searchBloc1"><i class="fas fa-map-marker-alt" id="map_marker_icon"></i>
+    <section id="search-form">
+        <div id="bloc_search-form">
+            <div id="search_Bloc1"><i class="fas fa-map-marker-alt" id="map_marker_icon"></i>
             </div>
-
-            <div id="searchBloc2">
+            <div id="search_Bloc2">
                 <input type="text" id="ville" name="ville" required minlength="2" maxlength="15" size="29"
                     placeholder="Marseille, France"></input>
             </div>
-
-            <div id="searchBloc3">
+            <div id="search_Bloc3">
                 Rechercher
             </div>
         </div>
-
     </section>
-
     <!-- Filtres de recherche -->
     <section id="filters">
         <div id="bloc_filtres">
-
             <div id="titre_filtres">
-                <h4>Filtres</h4>
+                Filtres
             </div>
-            <div id="bloc_economicFilter">
-                <div id="economic_icon"><i class="fas fa-money-bill-wave"></i>
+            <div id="bloc_boutons_filtres">
+                <div id="bloc_economic_filter">
+                    <div id="economic_icon"><i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div id="economic_icon_reversed"><i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div id="economic_text">Économique
+                    </div>
                 </div>
-                <div id="economic_icon_reversed"><i class="fas fa-money-bill-wave"></i>
+                <div id="bloc_family_filter">
+                    <div id="family_icon"><i class="fas fa-child"></i>
+                    </div>
+                    <div id="family_icon_reversed"><i class="fas fa-child"></i>
+                    </div>
+                    <div id="family_text">Familial
+                    </div>
                 </div>
-                <div id="economic_text">Économique
+                <div id="bloc_romantic_filter">
+                    <div id="romantic_icon"><i class="fas fa-heart"></i>
+                    </div>
+                    <div id="romantic_icon_reversed"><i class="fas fa-heart"></i>
+                    </div>
+                    <div id="romantic_text">Romantique
+                    </div>
+                </div>
+                <div id="bloc_pet_filter">
+                    <div id="pet_icon"><i class="fas fa-dog"></i>
+                    </div>
+                    <div id="pet_icon_reversed"><i class="fas fa-dog"></i>
+                    </div>
+                    <div id="pet_text">Animaux autorisés
+                    </div>
                 </div>
             </div>
-
-            <div id="bloc_familyFilter">
-                <div id="family_icon"><i class="fas fa-child"></i>
-                </div>
-                <div id="family_icon_reversed"><i class="fas fa-child"></i>
-                </div>
-                <div id="family_text">Familial
-                </div>
-            </div>
-
-            <div id="bloc_romanticFilter">
-                <div id="romantic_icon"><i class="fas fa-heart"></i>
-                </div>
-                <div id="romantic_icon_reversed"><i class="fas fa-heart"></i>
-                </div>
-                <div id="romantic_text">Romantique
-                </div>
-            </div>
-
-            <div id="bloc_petfriendlyFilter">
-                <div id="pet_icon"><i class="fas fa-dog"></i>
-                </div>
-                <div id="pet_icon_reversed"><i class="fas fa-dog"></i>
-                </div>
-                <div id="petfriendly_text">Animaux autorisés
-                </div>
-            </div>
-
-
         </div>
         <div id="info">
             <div id="info_icon"><i class="fas fa-info fa-xs"></i></div>
             <span>Plus de 500 logements sont disponibles dans cette ville</span>
         </div>
     </section>
-
     <!-- Section 1 : Hébergements à Marseille  -->
     <section id="hosting">
-
         <div id="bloc_hebergements">
             <div id="titre_hebergements">
                 Hébergements à Marseille
             </div>
-            <a href="#">
-                <div id="card1-1"><img src="images/hebergements/small-rd/auberge_la_cannebiere.jpg"
+            <div class="hosting_cards">
+                <a href="#"><img src="images/hebergements/small-rd/auberge_la_cannebiere.jpg"
                         alt="Photo Auberge la Cannebiere" class="photos_hebergements">
-                    <div class="hosting_text_card">
-                        <div class="titles_cards">Auberge la Cannebière
+                    <div class="text_hosting_cards">
+                        <div class="title_hosting_cards">Auberge la Cannebière
                         </div>
                         Nuit à partir de <strong>25€</strong>
-
                         <div class="stars">
                             <div class="fullstars">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                     class="fas fa-star"></i>
                             </div>
-
                             <div class="emptystars">
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-
                     </div>
-            </a>
-        </div>
-
-        <a href="#">
-            <div id="card2-1"><img src="images/hebergements/small-rd/hotel_du_port.jpg" alt="Photo Hotel du port"
-                    class="photos_hebergements">
-                <div class="hosting_text_card">
-                    <div class="titles_cards">Hôtel du port
-                    </div>
-                    Nuit à partir de 52<strong>€</strong>
-
-                    <div class="stars">
-                        <div class="fullstars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                    </div>
-
-                </div>
-        </a>
-        </div>
-
-        <a href="#">
-            <div id="card3-1"><img src="images/hebergements/small-rd/hotel_les_mouettes.jpg"
-                    alt="Photo Hotel Les Mouettes" class="photos_hebergements">
-                <div class="hosting_text_card">
-                    <div class="titles_cards">Hôtel Les Mouettes
-                    </div>
-                    Nuit à partir de 76<strong>€</strong>
-
-                    <div class="stars">
-                        <div class="fullstars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i>
-                        </div>
-
-                        <div class="emptystars">
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-
-                </div>
-        </a>
-        </div>
-
-        <a href="#">
-            <div id="card4-1"><img src="images/hebergements/small-rd/hotel_de_la_mer.jpg" alt="Photo Hotel de la mer"
-                    class="photos_hebergements">
-                <div class="hosting_text_card">
-                    <div class="titles_cards">Hôtel de la mer
-                    </div>
-                    Nuit à partir de 46<strong>€</strong>
-
-                    <div class="stars">
-                        <div class="fullstars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i></div>
-
-                        <div class="emptystars"><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    </div>
-
-                </div>
-        </a>
-        </div>
-
-        <a href="#">
-            <div id="card5-1"><img src="images/hebergements/small-rd/auberge_le_panier.jpg"
-                    alt="Photo Auberge Le Panier" class="photos_hebergements">
-                <div class="hosting_text_card">
-                    <div class="titles_cards">Auberge Le Panier
-                    </div>
-                    Nuit à partir de <strong>23€</strong>
-
-                    <div class="stars">
-                        <div class="fullstars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i>
-                        </div>
-
-                        <div class="emptystars">
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-
-                </div>
-        </a>
-        </div>
-
-        <a href="#">
-            <div id="card6-1"><img src="images/hebergements/small-rd/hotel_chez_amina.jpg" alt="Photo Hotel chez Amina"
-                    class="photos_hebergements">
-                <div class="hosting_text_card">
-                    <div class="titles_cards">Hôtel chez Amina
-                    </div>
-                    Nuit à partir de 96<strong>€</strong>
-
-                    <div class="stars">
-                        <div class="fullstars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                    </div>
-
-                </div>
-        </a>
-        </div>
-
-        <h3>Afficher plus</h3>
-
-        </div>
-
-
-
-        <!-- Les plus populaires -->
-
-        <div id="bloc_populaires">
-            <div id="titre_populaires">
-                Les plus populaires
-                <i class="fas fa-chart-line fa-lg" id="chart_icon"></i>
-
+                </a>
             </div>
-
-            <a href="#">
-                <div id="card1-2"><img src="images/hebergements/small-rd/hotel_le_soleil_du_matin.jpg"
-                        alt="Photo Hotel Le soleil du matin" class="photos_populaires">
-                    <div class="popular_text_card">
-                        <div class="titles_cards">Hôtel Le soleil du matin
+            <div class="hosting_cards">
+                <a href="#"><img src="images/hebergements/small-rd/hotel_du_port.jpg" alt="Photo Hotel du port"
+                        class="photos_hebergements">
+                    <div class="text_hosting_cards">
+                        <div class="title_hosting_cards">Hôtel du port
                         </div>
-                        Nuit à partir de 128<strong>€</strong><br><br><br>
-
+                        Nuit à partir de 52<strong>€</strong>
                         <div class="stars">
                             <div class="fullstars">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                     class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </a>
-            <a href="#">
-                <div id="card2-2"><img src="images/hebergements/small-rd/au_coeur_de_leau.jpg"
-                        alt="Photo Au coeur de l'eau Chambres d'hôtes" class="photos_populaires">
-                    <div class="popular_text_card">
-                        <div class="titles_cards">Au coeur de l'eau Chambres d'hôtes
+                </a>
+            </div>
+            <div class="hosting_cards">
+                <a href="#"><img src="images/hebergements/small-rd/hotel_les_mouettes.jpg"
+                        alt="Photo Hotel Les Mouettes" class="photos_hebergements">
+                    <div class="text_hosting_cards">
+                        <div class="title_hosting_cards">Hôtel Les Mouettes
                         </div>
-                        Nuit à partir de 71<strong>€</strong><br><br><br>
-
+                        Nuit à partir de 76<strong>€</strong>
                         <div class="stars">
                             <div class="fullstars">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                     class="fas fa-star"></i>
                             </div>
-
                             <div class="emptystars">
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </a>
-            <a href="#">
-                <div id="card3-2"><img src="images/hebergements/small-rd/hotel_tout_bleu_et_blanc.jpg"
-                        alt="Photo Hotel Tout bleu et Blanc" class="photos_populaires">
-                    <div class="popular_text_card">
-                        <div class="titles_cards">Hôtel tout bleu et blanc
+                </a>
+            </div>
+            <div class="hosting_cards">
+                <a href="#"><img src="images/hebergements/small-rd/hotel_de_la_mer.jpg" alt="Photo Hotel de la mer"
+                        class="photos_hebergements">
+                    <div class="text_hosting_cards">
+                        <div class="title_hosting_cards">Hôtel de la mer
                         </div>
-                        Nuit à partir de 68<strong>€</strong><br><br><br>
-
+                        Nuit à partir de 46<strong>€</strong>
+                        <div class="stars">
+                            <div class="fullstars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></div>
+                            <div class="emptystars"><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="hosting_cards">
+                <a href="#"><img src="images/hebergements/small-rd/auberge_le_panier.jpg" alt="Photo Auberge Le Panier"
+                        class="photos_hebergements">
+                    <div class="text_hosting_cards">
+                        <div class="title_hosting_cards">Auberge Le Panier
+                        </div>
+                        Nuit à partir de <strong>23€</strong>
                         <div class="stars">
                             <div class="fullstars">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                     class="fas fa-star"></i>
                             </div>
-
                             <div class="emptystars">
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-
                     </div>
-
-                </div>
-            </a>
+                </a>
+            </div>
+            <div class="hosting_cards">
+                <a href="#"><img src="images/hebergements/small-rd/hotel_chez_amina.jpg" alt="Photo Hotel chez Amina"
+                        class="photos_hebergements">
+                    <div class="text_hosting_cards">
+                        <div class="title_hosting_cards">Hôtel chez Amina
+                        </div>
+                        Nuit à partir de 96<strong>€</strong>
+                        <div class="stars">
+                            <div class="fullstars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="afficher_plus">
+                <h3>Afficher plus</h3>
+            </div>
         </div>
-
+        <!-- Les plus populaires -->
+        <div id="bloc_populaires">
+            <div id="titre_populaires">
+                Les plus populaires
+                <i class="fas fa-chart-line fa-lg" id="chart_icon"></i>
+            </div>
+            <div class="popular_cards">
+                <a href="#">
+                    <div id="test">
+                        <img src="images/hebergements/small-rd/hotel_le_soleil_du_matin.jpg"
+                            alt="Photo Hotel Le soleil du matin" class="photos_populaires">
+                    </div>
+                    <div class="text_popular_cards">
+                        <div class="title_hosting_cards">Hôtel Le soleil du matin
+                        </div>
+                        Nuit à partir de 128<strong>€</strong>
+                        <div class="stars">
+                            <div class="fullstars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="popular_cards">
+                <a href="#"><img src="images/hebergements/small-rd/au_coeur_de_leau.jpg"
+                        alt="Photo Au coeur de l'eau Chambres d'hôtes" class="photos_populaires">
+                    <div class="text_popular_cards">
+                        <div class="title_hosting_cards">Au coeur de l'eau Chambres d'hôtes
+                        </div>
+                        Nuit à partir de 71<strong>€</strong>
+                        <div class="stars">
+                            <div class="fullstars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i>
+                            </div>
+                            <div class="emptystars">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="popular_cards">
+                <a href="#"><img src="images/hebergements/small-rd/hotel_tout_bleu_et_blanc.jpg"
+                        alt="Photo Hotel Tout bleu et Blanc" class="photos_populaires">
+                    <div class="text_popular_cards">
+                        <div class="title_hosting_cards">Hôtel tout bleu et blanc
+                        </div>
+                        Nuit à partir de 68<strong>€</strong>
+                        <div class="stars">
+                            <div class="fullstars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i>
+                            </div>
+                            <div class="emptystars">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
-
-
-
     <!-- Section 2 : Activités à Marseille -->
     <section id="activities">
         <div id="titre_activites">
-            <h3>Activités à Marseille</h3>
+            Activités à Marseille
         </div>
-
         <div id="bloc_activites">
-
-            <a href="#">
-                <div id="sousbloc_activites1">
-                    <div id="activities_card1"><img src="images/activites/vieux_port.jpg" alt="Vieux Port"
-                            class="photos_activites">
-                        <div class="activities_text_card">Vieux Port
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-
-            <a href="#">
-                <div id="sousbloc_activites2-3">
-                    <div id="activities_card2"><img src="images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues"
-                            class="photos_activites">
-                        <div class="activities_text_card">Fort de Pomègues
-                        </div>
-            </a>
-        </div>
-
-        <a href="#">
-            <div id="sousbloc_activites3">
-                <div id="activities_card3"><img src="images/activites/iles_du_frioul.jpg" alt="Iles du Frioul"
-                        class="photos_activites">
-                    <div class="activities_text_card">Îles du Frioul
-                    </div>
-        </a>
-        </div>
-        </div>
-        </div>
-
-
-        <a href="#">
-            <div id="sousbloc_activites4">
-                <div id="activities_card4"><img src="images/activites/pn_des_calanques.jpg"
-                        alt="Parc National des Calanques" class="photos_activites">
-                    <div class="activities_text_card">Parc National des Calanques
-                    </div>
-        </a>
-        </div>
-        </div>
-
-
-        <a href="#">
-            <div id="sousbloc_activites5">
-
-                <div id="activities_card5"><img src="images/activites/notre_dame_de_la_garde.jpg"
-                        alt="Notre-Dame-de-la-Garde" class="photos_activites">
-                    <div class="activities_text_card">Notre-Dame-de-la-Garde
-                    </div>
-        </a>
-        </div>
-
-
-        <a href="#">
-            <div id="sousbloc_activites6">
-                <div id="activities_card6"><img src="images/activites/parc_longchamp.jpg" alt="Parc Longchamp"
-                        class="photos_activites">
-                    <div class="activities_text_card">Parc Longchamp
-                    </div>
+            <div id="sousbloc_activites1">
+                <div class="activities_big_cards">
+                    <a href="#">
+                        <img src="images/activites/vieux_port.jpg" alt="Vieux Port" class="photos_activites">
+                        <div class="activities_text_cards">Vieux Port</div>
+                    </a>
                 </div>
             </div>
-        </a>
+            <div id="sousbloc_activites2-3">
+                <div class="activities_medium_card1">
+                    <a href="#">
+                        <img src="images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues"
+                            class="photos_activites">
+                        <div class="activities_text_cards">Fort de Pomègues</div>
+                    </a>
+                </div>
+                <div class="activities_small_card1">
+                    <a href="#">
+                        <img src="images/activites/iles_du_frioul.jpg" alt="Iles du Frioul" class="photos_activites">
+                        <div class="activities_text_cards">Îles du Frioul</div>
+                    </a>
+                </div>
+            </div>
+            <div id="sousbloc_activites4">
+                <div id="calanques" class="activities_big_cards">
+                    <a href="#"><img src="images/activites/pn_des_calanques.jpg" alt="Parc National des Calanques"
+                            class="photos_activites">
+                        <div class="activities_text_cards">Parc National des Calanques
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="sousbloc_activites5-6">
+                <div class="activities_small_card2">
+                    <a href="#"><img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde"
+                            class="photos_activites">
+                        <div class="activities_text_cards">Notre-Dame-de-la-Garde</div>
+                    </a>
+                </div>
+                <div class="activities_medium_card2">
+                    <a href="#">
+                        <img src="images/activites/parc_longchamp.jpg" alt="Parc Longchamp" class="photos_activites">
+                        <div class="activities_text_cards">Parc Longchamp</div>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
-
     <!-- Footer : A propos, nos hébergements, assistance-->
     <footer>
-        <div id="footer">
-
-            <div id="apropos">
-                <h3>A propos</h3>
-                <p>Fonctionnement du site </p>
-                <p>Conditions générales de vente</p>
-                <p>Données de confidentialité</p>
-            </div>
-
-            <div id="noshebergements">
-                <h3>Nos hébergements</h3>
-                <p>Charte qualité</p>
-                <p> Soumettre votre hôtel</p>
-            </div>
-
-            <div id="assistance">
-                <h3>Assistance</h3>
-                <p> Centre d'aide</p>
-                <p> Nous contacter</p>
-            </div>
-
-
+        <div id="apropos">
+            <h3>A propos</h3>
+            <p>Fonctionnement du site </p>
+            <p>Conditions générales de vente</p>
+            <p>Données de confidentialité</p>
+        </div>
+        <div id="noshebergements">
+            <h3>Nos hébergements</h3>
+            <p>Charte qualité</p>
+            <p> Soumettre votre hôtel</p>
+        </div>
+        <div id="assistance">
+            <h3>Assistance</h3>
+            <p> Centre d'aide</p>
+            <p> Nous contacter</p>
         </div>
     </footer>
-
-
     <style type="text/css">
         a:link {
             text-decoration: none;
         }
     </style>
-
-
 </body>
 
 </html>
