@@ -2,7 +2,6 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +9,10 @@
         a {
             color: black;
         }
-
         /* CSS link color */
     </style>
     <title>Reservia</title>
 </head>
-
 <body>
     <!-- Header : logo, menu -->
     <div id="bloc_header">
@@ -33,7 +30,7 @@
                     Activités</a>
             </div>
             <div id="inscription_menu">
-                <a href="#" class="hover_menu" style="font-weight: bold; color: #0065FC;">S'inscrire</a>
+                <a href="#" class="hover_menu">S'inscrire</a>
             </div>
         </div>
     </div>
@@ -101,7 +98,7 @@
     <section id="hosting">
         <div id="bloc_hebergements">
             <div id="titre_hebergements">
-                Hébergements à Marseille
+                <h3>Hébergements à Marseille</h3>
             </div>
             <div class="hosting_cards">
                 <a href="#"><img src="images/hebergements/small-rd/auberge_la_cannebiere.jpg"
@@ -208,71 +205,79 @@
                 </a>
             </div>
             <div id="afficher_plus">
-                <h3>Afficher plus</h3>
+                <a href="#">Afficher plus</a>
             </div>
         </div>
         <!-- Les plus populaires -->
         <div id="bloc_populaires">
             <div id="titre_populaires">
-                Les plus populaires
+                <h3>Les plus populaires</h3>
                 <i class="fas fa-chart-line fa-lg" id="chart_icon"></i>
             </div>
-            <div class="popular_cards">
-                <a href="#">
-                    <div id="test">
-                        <img src="images/hebergements/small-rd/hotel_le_soleil_du_matin.jpg"
-                            alt="Photo Hotel Le soleil du matin" class="photos_populaires">
-                    </div>
-                    <div class="text_popular_cards">
-                        <div class="title_hosting_cards">Hôtel Le soleil du matin
+            <div id="div_popular_cards">
+                <div class="popular_cards">
+                    <a href="#">
+                        <div class="div_photos_populaires">
+                            <img src="images/hebergements/small-rd/hotel_le_soleil_du_matin.jpg"
+                                alt="Photo Hotel Le soleil du matin" class="photos_populaires">
                         </div>
-                        Nuit à partir de 128<strong>€</strong>
-                        <div class="stars">
-                            <div class="fullstars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="text_popular_cards">
+                            <div class="title_popular_cards">Hôtel Le soleil du matin
+                            </div>
+                            Nuit à partir de 128<strong>€</strong>
+                            <div class="stars">
+                                <div class="fullstars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="popular_cards">
-                <a href="#"><img src="images/hebergements/small-rd/au_coeur_de_leau.jpg"
-                        alt="Photo Au coeur de l'eau Chambres d'hôtes" class="photos_populaires">
-                    <div class="text_popular_cards">
-                        <div class="title_hosting_cards">Au coeur de l'eau Chambres d'hôtes
+                    </a>
+                </div>
+                <div class="popular_cards">
+                    <a href="#">
+                        <div class="div_photos_populaires">
+                            <img src="images/hebergements/small-rd/au_coeur_de_leau.jpg"
+                                alt="Photo Au coeur de l'eau Chambres d'hôtes" class="photos_populaires">
                         </div>
-                        Nuit à partir de 71<strong>€</strong>
-                        <div class="stars">
-                            <div class="fullstars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i>
+                        <div class="text_popular_cards">
+                            <div class="title_popular_cards">Au coeur de l'eau Chambres d'hôtes
                             </div>
-                            <div class="emptystars">
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="popular_cards">
-                <a href="#"><img src="images/hebergements/small-rd/hotel_tout_bleu_et_blanc.jpg"
-                        alt="Photo Hotel Tout bleu et Blanc" class="photos_populaires">
-                    <div class="text_popular_cards">
-                        <div class="title_hosting_cards">Hôtel tout bleu et blanc
-                        </div>
-                        Nuit à partir de 68<strong>€</strong>
-                        <div class="stars">
-                            <div class="fullstars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i>
-                            </div>
-                            <div class="emptystars">
-                                <i class="fas fa-star"></i>
+                            Nuit à partir de 71<strong>€</strong>
+                            <div class="stars">
+                                <div class="fullstars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i>
+                                </div>
+                                <div class="emptystars">
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
+                <div class="popular_cards">
+                    <a href="#">
+                        <div class="div_photos_populaires">
+                            <img src="images/hebergements/small-rd/hotel_tout_bleu_et_blanc.jpg"
+                                alt="Photo Hotel Tout bleu et Blanc" class="photos_populaires">
+                        </div>
+                        <div class="text_popular_cards">
+                            <div class="title_popular_cards">Hôtel tout bleu et blanc
+                            </div>
+                            Nuit à partir de 68<strong>€</strong>
+                            <div class="stars">
+                                <div class="fullstars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i>
+                                </div>
+                                <div class="emptystars">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -316,7 +321,8 @@
             </div>
             <div id="sousbloc_activites5-6">
                 <div class="activities_small_card2">
-                    <a href="#"><img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde"
+                    <a href="#">
+                        <img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde"
                             class="photos_activites">
                         <div class="activities_text_cards">Notre-Dame-de-la-Garde</div>
                     </a>
@@ -355,5 +361,4 @@
         }
     </style>
 </body>
-
 </html>
