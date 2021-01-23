@@ -99,8 +99,14 @@ a.current {
     border-top: 2px solid rgba(0, 101, 252, 1);
 }
 
-#inscription_menu {
+#inscription_menu a {
     font-family: 'Raleway-SemiBold';
+    color: #0065FC;
+    transition: transform 1s ease-in-out;
+}
+
+#inscription_menu a:hover {
+    transform: scale(1.1);
 }
 
 /* Recherche */
@@ -159,6 +165,8 @@ input:focus::placeholder {
     height: auto;
     justify-content: center;
     width: 17%;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
 }
 
 #search_Bloc3:hover {
@@ -202,24 +210,14 @@ input:focus::placeholder {
     color: #0065FC;
     padding: 1em 0.9em 0 0.9em;
     z-index: 99;
-}
-
-#economic_icon_reversed {
-    background-color: #0065FC;
-    border-radius: 60%;
-    color: #DEEBFF;
-    display: none;
-    padding: 1em 0.9em 0 0.9em;
-    z-index: 99;
-}
-
-#bloc_economic_filter:hover #economic_icon_reversed {
-    display: block;
-    cursor: pointer;
+    transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_economic_filter:hover #economic_icon {
-    display: none;
+    background-color: #0065FC;
+    color: #DEEBFF;
+    cursor: pointer;
 }
 
 #economic_text {
@@ -234,6 +232,8 @@ input:focus::placeholder {
     padding: 0 1em 0 2em;
     text-align: center;
     width: 94px;
+    -webkit-transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_economic_filter:hover #economic_text {
@@ -255,24 +255,14 @@ input:focus::placeholder {
     color: #0065FC;
     padding: 1em 1.2em 0 1.2em;
     z-index: 99;
-}
-
-#family_icon_reversed {
-    background-color: #0065FC;
-    border-radius: 60%;
-    color: #DEEBFF;
-    display: none;
-    padding: 1em 1.2em 0 1.2em;
-    z-index: 99;
-}
-
-#bloc_family_filter:hover #family_icon_reversed {
-    display: block;
-    cursor: pointer;
+    transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_family_filter:hover #family_icon {
-    display: none;
+    background-color: #0065FC;
+    color: #DEEBFF;
+    cursor: pointer;
 }
 
 #family_text {
@@ -285,6 +275,8 @@ input:focus::placeholder {
     font-family: 'Raleway-SemiBold';
     margin-left: -1.5em;
     padding: 0 1em 0 2em;
+    -webkit-transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_family_filter:hover #family_text {
@@ -297,8 +289,6 @@ input:focus::placeholder {
 
 #bloc_romantic_filter {
     display: flex;
-    /* margin: 1.3em 0 0 0;  */
-    /* width: 13%; */
     height: 50px;
 }
 
@@ -308,24 +298,14 @@ input:focus::placeholder {
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
-}
-
-#romantic_icon_reversed {
-    background-color: #0065FC;
-    padding: 1em 1em 0 1em;
-    border-radius: 60%;
-    z-index: 99;
-    color: #DEEBFF;
-    display: none;
-}
-
-#bloc_romantic_filter:hover #romantic_icon_reversed {
-    display: block;
-    cursor: pointer;
+    transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_romantic_filter:hover #romantic_icon {
-    display: none;
+    background-color: #0065FC;
+    color: #DEEBFF;
+    cursor: pointer;
 }
 
 #romantic_text {
@@ -338,6 +318,8 @@ input:focus::placeholder {
     font-family: 'Raleway-SemiBold';
     margin-left: -1.5em;
     padding: 0 1em 0 2em;
+    -webkit-transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_romantic_filter:hover #romantic_text {
@@ -350,8 +332,6 @@ input:focus::placeholder {
 
 #bloc_pet_filter {
     display: flex;
-    /* margin: 1.3em 0 0 0;  */
-    /* width: 26%; */
     height: 50px;
 }
 
@@ -361,24 +341,14 @@ input:focus::placeholder {
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
-}
-
-#pet_icon_reversed {
-    background-color: #0065FC;
-    padding: 1em 1em 0 1em;
-    border-radius: 60%;
-    z-index: 99;
-    color: #DEEBFF;
-    display: none;
-}
-
-#bloc_pet_filter:hover #pet_icon_reversed {
-    display: block;
-    cursor: pointer;
+    transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_pet_filter:hover #pet_icon {
-    display: none;
+    background-color: #0065FC;
+    color: #DEEBFF;
+    cursor: pointer;
 }
 
 #pet_text {
@@ -391,6 +361,8 @@ input:focus::placeholder {
     font-family: 'Raleway-SemiBold';
     margin-left: -1.5em;
     padding: 0 1em 0 2em;
+    -webkit-transition: background-color 1s ease;
+    transition: color 1s ease; 
 }
 
 #bloc_pet_filter:hover #pet_text {
@@ -476,11 +448,11 @@ input:focus::placeholder {
     z-index: 99;
 }
 
-.title_popular_cards {
+.title_hosting_cards {
     font-family: 'Raleway-SemiBold';
     font-size: 14px;
     height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: -10px;
 }
 
 #afficher_plus {
@@ -528,7 +500,7 @@ input:focus::placeholder {
 }
 
 #chart_icon {
-    padding-left: 54%;
+    padding-left: 45%;
 }
 
 .div_photos_populaires {
@@ -541,6 +513,13 @@ input:focus::placeholder {
     height: auto;
     border-radius: 20px 0 0 20px;
     width: 100%;
+}
+
+.title_popular_cards {
+    font-family: 'Raleway-SemiBold';
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 5px;
 }
 
 .text_popular_cards {
@@ -605,35 +584,34 @@ input:focus::placeholder {
 #sousbloc_activites1 {
     display: flex;
     flex-direction: row;
-    width: 20%;
-    margin: auto 6.66% auto 0
+    width: 25%;
+    margin: auto 3% auto 0
 }
 
 #sousbloc_activites2-3 {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    margin: 0 6.66% 0 0;
+    width: 25%;
 }
 
 #sousbloc_activites4 {
     display: flex;
     flex-direction: row;
-    width: 20%;
-    margin: auto 6.66% auto 0
+    width: 25%;
+    margin: auto 3% auto -4%
 }
 
 #sousbloc_activites5-6 {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 25%;
 }
 
 .activities_big_cards {
     border-radius: 20px;
     box-shadow: 3px 3px 15px lightgrey;
     height: auto;
-    margin: 0 4em 0 0;
+    margin: 0 auto 0 0;
 }
 
 #calanques {
@@ -650,7 +628,6 @@ input:focus::placeholder {
 .activities_medium_card2 {
     border-radius: 20px;
     box-shadow: 3px 3px 15px lightgrey;
-    /*height: 50%; ça faissait beugueur parc longchamps qui se retrouvait plus bas*/
     margin: auto 0 0 auto;
 }
 
@@ -675,7 +652,7 @@ input:focus::placeholder {
     border-radius: 0 0 20px 20px;
     display: flex;
     font-family: 'Raleway-SemiBold';
-    font-size: 22px;
+    font-size: 12px;
     height: 68px;
     opacity: 0.99;
     padding: 0 0 0 15px;
