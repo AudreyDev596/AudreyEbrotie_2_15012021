@@ -35,7 +35,7 @@
     }
 
     #hosting {
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
     .hosting_cards {
@@ -79,6 +79,10 @@
     .title_hosting_cards,
     .activities_text_cards {
         font-size: 16px;
+    }
+
+    #titre_hebergements, #titre_populaires, #titre_activites {
+        margin-bottom: 20px;
     }
 
     #sousbloc_activites1,
