@@ -33,6 +33,10 @@ body {
     margin: 0 4em 4em 4em;
 }
 
+main {
+    width: 1420px;
+}
+
 a {
     display: block;
     transition: color 0.6s linear;
