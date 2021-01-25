@@ -1,0 +1,134 @@
+@media (max-width: 768px) 
+{
+    body {
+        margin: 0 4%;
+    }
+    
+    #bloc_menu {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 146px;
+        width: 40%;
+    }
+
+    #bloc_menu a {
+        padding: 0;
+    }
+
+    div#hebergements_menu {
+        margin: 0 15%;
+    }
+
+    a.current {
+        border-bottom: 2px solid rgba(0, 101, 252, 1);
+        border-top: 0px;
+    }
+
+    .hover_menu {
+        border-bottom: 2px solid rgba(0, 101, 252, 0);
+        border-top: 0;
+        transition: none;
+    }
+
+    #inscription_menu {
+        display: flex;
+        font-family: 'Raleway-SemiBold';
+        justify-content: flex-end;
+    }
+
+    #inscription_menu a {
+        color: rgba(0, 101, 252, 1);
+    }
+
+    #menu_portable {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #bloc_search-form {
+        width: 54%;
+    }
+
+    #search_Bloc1 {
+        width: 5em;
+    }
+
+    #search_Bloc2 {
+        width: 50%;
+    }
+
+    #titre_filtres {
+        width: 8%;
+    }
+
+    #bloc_hebergements {
+        width: 60%;
+    }
+
+    .hosting_cards {
+        height: 150px;
+        width: 40%;
+    }
+
+    .title_hosting_cards {
+        font-size: 12px;
+    }
+
+    .text_hosting_cards p {
+        font-size: 10px;
+    }
+
+    #bloc_populaires {
+        width: 33%;
+    }
+
+    .text_popular_cards {
+        font-size: 10px;
+        width: 60%;
+    }
+
+    #bloc_populaires {
+        padding: 2% 1% 2% 1%;
+    }
+
+    #chart_icon {
+        font-size: 19px;
+        margin: 2%;
+    }
+
+    #div_popular_cards {
+        top: -7px;
+    }
+
+    .popular_cards {
+        margin-bottom: 5em;
+    }
+
+    .title_popular_cards {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .text_popular_cards {
+        width: 60%;
+    }
+
+    .div_photos_populaires {
+        width: 50%;
+    }
+
+    .activities_text_cards {
+        font-size: 12px;
+    }
+
+    .activities_medium_card1,
+    .activities_small_card2 {
+        margin-bottom: 10px;
+    }
+
+    #footer p {
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+}

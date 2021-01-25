@@ -1,0 +1,57 @@
+@media all and (max-width: 1280px) {
+    #bloc_filtres {
+        width: 100%;
+    }
+
+    #bloc_boutons_filtres {
+        width: 65%;
+    }
+
+    .hosting_cards {
+        height: 177px;
+        margin: 0 auto 2% auto;
+    }
+
+    #titre_hebergements {
+        height: 40px;
+        margin: 0 0 2% 2%;
+    }
+
+    #bloc_populaires .stars {
+        bottom: -20px;
+    }
+
+    #div_popular_cards {
+        top: 8px;
+    }
+
+    #sousbloc_activites1 {
+        width: 23%;
+        margin: auto 3% auto 0
+    }
+
+    #sousbloc_activites2-3 {
+        width: 23%;
+        margin: auto 3% auto 0
+    }
+
+    #sousbloc_activites4 {
+        width: 23%;
+        margin: auto 3% auto 0
+    }
+
+    #sousbloc_activites5-6 {
+        width: 23%;
+        margin: auto 0 auto 0
+    }
+
+    .activities_text_cards {
+        height: 55px;
+        margin: -18% -0.7% 0 -0.7%;
+    }
+
+    .activities_medium_card1,
+    .activities_small_card2 {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,49 @@
+@media all and (max-width: 1024px) {
+    body {
+        margin: 0 3%;
+    }
+
+    #bloc_menu {
+        width: 40%;
+    }
+
+    #search_Bloc3 {
+        width: 30%;
+    }
+
+    #titre_filtres {
+        width: 10%;
+    }
+
+    #bloc_boutons_filtres {
+        width: 90%;
+    }
+
+    .hosting_cards {
+        height: 140px;
+    }
+
+    #bloc_populaires .stars {
+        bottom: -20px;
+    }
+
+    .text_popular_cards {
+        padding: 0.5em 1em 0 1em;
+    }
+
+    i.fas.fa-star {
+        font-size: 10px;
+    }
+
+    .activities_text_cards {
+        height: 38px;
+        margin-top: -15%;
+        font-size: 15px;
+    }
+
+    .activities_medium_card1,
+    .activities_small_card2 {
+        margin-bottom: 20px;
+    }
+
+}

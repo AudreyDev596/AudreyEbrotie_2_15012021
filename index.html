@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style1440px.css" />
+<link rel="stylesheet" type="text/css" href="style1280px.css" />
+<link rel="stylesheet" type="text/css" href="style1024px.css" />
+<link rel="stylesheet" type="text/css" href="style768px.css" />
+<link rel="stylesheet" type="text/css" href="style600px.css" />
+<link rel="stylesheet" type="text/css" href="style375px.css" />
 <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
 <html lang="en">
 
@@ -21,8 +27,10 @@
     <div id="bloc_header">
         <div id="bloc_logo">
             <a id="logo" href="index.html"><img src="images/logo/Reservia.svg"></a>
+
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            En plein centre ville ou en pleine nature<br>
+            <p>En plein centre ville ou en pleine nature<br>
+            </p>
         </div>
         <div id="bloc_menu">
             <div id="menu_portable">
@@ -49,7 +57,8 @@
                     placeholder="Marseille, France"></input>
             </div>
             <div id="search_Bloc3">
-                Rechercher
+                <div id="search_text">Rechercher</div>
+                <i class="fas fa-search" id="search_icon"></i>
             </div>
         </div>
     </section>
@@ -95,7 +104,7 @@
     <section id="hosting">
         <div id="bloc_hebergements">
             <div id="titre_hebergements">
-                <h3>Hébergements à Marseille</h3>
+                <h2>Hébergements à Marseille</h2>
             </div>
             <div class="hosting_cards">
                 <a href="#"><img src="images/hebergements/small-rd/auberge_la_cannebiere.jpg"
@@ -106,7 +115,7 @@
                         <div class="title_hosting_cards">
                             <h4>Auberge la Cannebière</h4>
                         </div>
-                        <p>Nuit à partir de <strong>25€</strong></p>
+                        <p>Nuit à partir de <strong class="gras">25€</strong></p>
                         <div class="stars">
                             <div class="fullstars">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -226,7 +235,7 @@
         <!-- Les plus populaires -->
         <div id="bloc_populaires">
             <div id="titre_populaires">
-                <h3>Les plus populaires</h3>
+                <h2>Les plus populaires</h2>
                 <i class="fas fa-chart-line fa-lg" id="chart_icon"></i>
             </div>
             <div id="div_popular_cards">
@@ -302,7 +311,7 @@
     <!-- Section 2 : Activités à Marseille -->
     <section id="activities">
         <div id="titre_activites">
-            <h3>Activités à Marseille</h3>
+            <h2>Activités à Marseille</h2>
         </div>
         <div id="bloc_activites">
             <a href="#">

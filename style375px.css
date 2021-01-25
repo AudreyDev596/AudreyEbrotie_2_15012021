@@ -1,0 +1,110 @@
+@media (max-width: 375px)
+
+/*Iphone*/
+{
+    #search_text {
+        display: none;
+    }
+
+    #search_icon {
+        display: inline;
+    }
+
+    span {
+        font-size: 13px;
+    }
+
+    #hosting {
+        margin-top: 15px;
+    }
+
+    .hosting_cards {
+        height: 199px;
+        width: 300px;
+        box-shadow: 2px 2px 10px lightgrey;
+    }
+
+    .hosting_cards img {
+        width: 300px;
+    }
+
+    .text_hosting_cards {
+        height: 75px;
+        top: -57px;
+    }
+
+    #chart_icon {
+        font-size: 20px;
+    }
+
+    .popular_cards {
+        width: 300px;
+        box-shadow: 2px 2px 10px lightgrey;
+    }
+
+    .i.fas.fa-star {
+        font-size: 10px;
+    }
+
+    #bloc_populaires .stars {
+        bottom: -15px;
+    }
+
+    .title_popular_cards,
+    .title_hosting_cards,
+    .activities_text_cards {
+        font-size: 16px;
+    }
+
+    #sousbloc_activites1,
+    #sousbloc_activites2-3,
+    #sousbloc_activites4,
+    #sousbloc_activites5-6,
+    .activities_medium_card1,
+    .activities_small_card1,
+    .activities_small_card2 {
+        width: 300px;
+    }
+
+    .activities_big_cards,
+    .activities_medium_card1,
+    .activities_medium_card2,
+    .activities_small_card1,
+    .activities_small_card2 {
+        height: 219px;
+    }
+
+    .activities_big_cards img,
+    .activities_medium_card1 img,
+    .activities_medium_card2 img,
+    .activities_small_card1 img,
+    .activities_small_card2 img {
+        width: 300px;
+    }
+
+    .activities_big_cards,
+    .activities_medium_card1,
+    .activities_medium_card2,
+    .activities_small_card1,
+    .activities_small_card2 {
+        margin: 0 0 5% 0;
+        height: 219px;
+    }
+
+    .activities_big_cards,
+    .activities_medium_card1,
+    .activities_medium_card2,
+    .activities_small_card1,
+    .activities_small_card2 {
+        margin: 0 0 5% 0;
+        height: 171px;
+        box-shadow: 2px 2px 10px lightgrey;
+    }
+
+    .activities_text_cards {
+        top: -58px;
+        width: 300px;
+        height: 55px;
+    }
+
+}
