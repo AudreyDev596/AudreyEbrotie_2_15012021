@@ -1,26 +1,27 @@
-@media screen and (max-width: 1024px) {
-    body {
-        margin: 0 3%;
-    }
-    
+@media (max-width: 1024px) 
+{
     main {
         width: 900px;
     }
 
     h1 {
         font-size: 20px;
+        font-family: 'Raleway-Medium';
     }
 
     h2 {
         font-size: 16px;
+        font-family: 'Raleway-Medium';
     }
 
     h3 {
         font-size: 14px;
+        font-family: 'Raleway-Medium';
     }
 
     h4 {
         font-size: 13px;
+        font-family: 'Raleway-Medium';
     }
 
     p {
@@ -48,9 +49,11 @@
     }
 
     #bloc_hebergements {
-        width: 55%;
+        width: 70%;
     }
-
+    #titre_hebergements {
+        margin-bottom: 15px;
+    }
     .text_hosting_cards {
         padding: 0.5em 0 0 0.5em;
         top: -20px;
@@ -61,7 +64,7 @@
     }
 
     .stars {
-        margin-top: 5px;
+        margin-top: -10px;
     }
 
     #afficher_plus a {
@@ -73,7 +76,7 @@
     }
 
     #bloc_populaires .stars {
-        bottom: -12px;
+        bottom: -4px;
     }
 
     .text_popular_cards {
@@ -97,6 +100,22 @@
         height: 50px;
         margin-top: -50px;
         padding-bottom: 5px;
+    }
+
+    #footer {
+        max-width: 900px ;
+    }
+
+    #apropos {
+        width: 280px;
+    }
+    
+    #noshebergements {
+        width: 280px;
+    }
+    
+    #assistance {
+        width: 280px;
     }
 
 }

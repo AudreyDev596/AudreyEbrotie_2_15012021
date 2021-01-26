@@ -1,7 +1,4 @@
-@media all and (max-width: 1280px) {
-    body {
-        margin: 0 3%;
-    }
+@media (max-width: 1280px) {
     
     main {
         width: 1150px;
@@ -62,7 +59,7 @@
         width: 65%;
     }
     #bloc_hebergements {
-        width: 70%;
+        width: 80%;
     }
 
     #titre_hebergements {
@@ -71,7 +68,8 @@
     }
 
     .hosting_cards {
-        height: 177px;
+        width: 210px;
+        height: 170px;
         margin: 0 auto 2% auto;
     }
 
@@ -84,8 +82,8 @@
         margin-bottom: -10px;
     }
 
-    #bloc_populaires .stars {
-        bottom: -20px;
+    .stars {
+        margin-top: -10px;
     }
 
     #div_popular_cards {
@@ -101,7 +99,27 @@
     }
 
     #bloc_populaires .stars {
-        bottom: -8px;
+        bottom: -5px;
+    }
+
+    .photos_activites {
+        width: 280px;
+    }
+
+    #footer {
+        max-width: 1150px ;
+    }
+
+    #apropos {
+        width: 342px;
+    }
+    
+    #noshebergements {
+        width: 342px;
+    }
+    
+    #assistance {
+        width: 342px;
     }
 
 }   
