@@ -1,51 +1,89 @@
-@media all and (max-width: 1440px) {
-    .activities_text_cards {
-        height: 55px;
-        margin: -15% -0.4% 0 -0.4%;
+@media all and (max-width: 1440px) 
+{   
+    body {
+    margin: 0 3%;
+    }
+
+    main {
+    width: 1150px;
+    }
+
+    h1 {
+        font-family: 'Raleway-Bold';
+        font-size: 24px;
+        margin-bottom: 1px;
+    }
+    
+    h2 {
+        font-family: 'Raleway-Bold';
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-family: 'Raleway-Bold';
+        font-size: 18px;
+    }
+    
+    h4 {
+        margin: 0;
+        margin-bottom: -10px;
+        padding: 0;
+        font-family: 'Raleway-SemiBold';
+        font-size: 15px;
+    }
+    
+    p {
+        font-family: 'Raleway-Light';
+        font-size: 14px;
+    }
+    
+    span {
+        color: black;
+        font-size: 15px;
+        margin-top: 3px;
     }
 
     #bloc_boutons_filtres {
         width: 80%;
     }
 
-    .hosting_cards {
-        height: 180px;
+    #bloc_hebergements {
+        width: 80%;
     }
 
-    .text_hosting_cards {
-        height: 60px;
-        top: -14px;
+    #titre_hebergements {
+        margin-bottom: 55px;
     }
 
     .title_hosting_cards {
         height: 15px;
+        margin-bottom: -10px;
     }
 
-    #sousbloc_activites1,
-    #sousbloc_activites2-3,
-    #sousbloc_activites4,
-    #sousbloc_activites5-6 {
-        height: auto;
+    .hosting_cards {
+        height: 180px;
+        width: 200px;
     }
 
-    .activities_big_cards {
-        margin: 0;
+    .text_hosting_cards {
+        height: 60px;
+        top: -20px;
     }
 
-    .photos_activites {
-        width: 100%;
+    .stars {
+        margin-top: -2px;
     }
 
-    .activities_small_card1 {
-        width: 100%;
+    #div_popular_cards {
+        top: 4px;
     }
 
-    .activities_medium_card1 {
-        margin: 0 auto 37px auto;
+    #bloc_populaires .stars {
+        bottom: -5px;
     }
 
-    .activities_small_card2 {
-        margin: 0 auto 37px auto;
+    .title_popular_cards {
+        margin-bottom: -10px;
     }
 
     .text_popular_cards {
@@ -56,36 +94,15 @@
         width: 40%;
     }
 
-    #bloc_populaires .stars {
-        bottom: -35px;
-    }
-
-    #div_popular_cards {
-        top: 4px;
-    }
-
-    #sousbloc_activites1 {
-        width: 23%;
-        margin: auto 3% auto 0
-    }
-
-    #sousbloc_activites2-3 {
-        width: 23%;
-        margin: auto 3% auto 0
-    }
-
-    #sousbloc_activites4 {
-        width: 23%;
-        margin: auto 3% auto 0
-    }
-
-    #sousbloc_activites5-6 {
-        width: 23%;
-        margin: auto 0 auto 0
+    .photos_activites {
+        width: 273px;
     }
 
     .activities_text_cards {
         height: 55px;
-        margin: -19% -0.2% 0 -0.2%;
+        margin-top: -50px;
     }
+
+    
+
 }

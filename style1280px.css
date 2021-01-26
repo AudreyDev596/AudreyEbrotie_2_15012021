@@ -1,4 +1,59 @@
 @media all and (max-width: 1280px) {
+    body {
+        margin: 0 3%;
+    }
+    
+    main {
+        width: 1150px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 17px;
+    }
+
+    #bloc_search-form {
+        width: 45%;
+    }
+
+    #search_Bloc1 {
+        width: 10%;
+        height: 52px;
+    }
+
+    #search_Bloc2 {
+        width: 40%;
+    }
+
+    input {
+        width: 100%;
+        height: 100%;
+    }
+
+    #search_Bloc3 {
+        width: 30%;
+        height: 52px;
+    }
+
     #bloc_filtres {
         width: 100%;
     }
@@ -6,15 +61,27 @@
     #bloc_boutons_filtres {
         width: 65%;
     }
+    #bloc_hebergements {
+        width: 70%;
+    }
+
+    #titre_hebergements {
+        height: 40px;
+        margin: 0 0 2% 2%;
+    }
 
     .hosting_cards {
         height: 177px;
         margin: 0 auto 2% auto;
     }
 
-    #titre_hebergements {
-        height: 40px;
-        margin: 0 0 2% 2%;
+    .text_hosting_cards {
+        padding: 0.5em 0 0 0.4em;
+        top: -20px;
+    }
+
+    .title_hosting_cards {
+        margin-bottom: -10px;
     }
 
     #bloc_populaires .stars {
@@ -25,33 +92,16 @@
         top: 8px;
     }
 
-    #sousbloc_activites1 {
-        width: 23%;
-        margin: auto 3% auto 0
+    #titre_populaires {
+        margin-bottom: 1px;
     }
 
-    #sousbloc_activites2-3 {
-        width: 23%;
-        margin: auto 3% auto 0
+    .title_popular_cards {
+        margin-bottom: -10px;
     }
 
-    #sousbloc_activites4 {
-        width: 23%;
-        margin: auto 3% auto 0
+    #bloc_populaires .stars {
+        bottom: -8px;
     }
 
-    #sousbloc_activites5-6 {
-        width: 23%;
-        margin: auto 0 auto 0
-    }
-
-    .activities_text_cards {
-        height: 55px;
-        margin: -18% -0.7% 0 -0.7%;
-    }
-
-    .activities_medium_card1,
-    .activities_small_card2 {
-        margin-bottom: 25px;
-    }
-}
+}   
