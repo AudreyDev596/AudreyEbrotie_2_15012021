@@ -2,48 +2,69 @@
 
 /*Iphone*/
 {
-    body {
-        margin: 0 4%;
-    }
-
     main {
         width: 375px;
     }
 
     h1 {
         font-size: 20px;
+        font-family: 'Raleway-Medium';
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
+        font-family: 'Raleway-Medium';
     }
 
     h3 {
         font-size: 18px;
+        font-family: 'Raleway-Medium';
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 14px;
+        font-family: 'Raleway-Medium';
     }
 
     p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     span {
         font-size: 14px;
     }
 
-    #search_text {
-        display: none;
+    #bloc_search-form {
+        justify-content: center;
+        margin: 1em 0 0 10px;
+        width: 95%;
+    }
+
+    #search_Bloc1 {
+        width: 15%;
+    }
+
+    #search_Bloc2 {
+        width: 70%;
     }
 
     #search_icon {
         display: inline;
     }
 
-    span {
-        font-size: 13px;
+    #search_text {
+        display: none;
+    }
+
+    input {
+        width: 100%;
+        height: 100%;
+    }
+
+    #search_Bloc3 {
+        width: 15%;
+        border-radius: 15px;
+        margin-left: -20px;
     }
 
     #hosting {
@@ -51,59 +72,79 @@
     }
 
     .hosting_cards {
-        height: 199px;
-        width: 300px;
+        height: auto;
+        width: auto;
         box-shadow: 2px 2px 10px lightgrey;
     }
 
-    .hosting_cards img {
-        width: 300px;
+    .photos_hebergements_smartphone {
+        width: 335px;
+    }
+
+    #titre_hebergements {
+        margin-top: -10px;
     }
 
     .text_hosting_cards {
-        height: 75px;
-        top: -57px;
+        height: 45px;
+        top: -20px;
     }
 
-    #afficher_plus a {
-        margin-left: 22%;
-     }
-
-    #chart_icon {
-        font-size: 20px;
+    .title_hosting_cards {
+        margin-bottom: -4px;
     }
 
-    .popular_cards {
-        width: 300px;
-        box-shadow: 2px 2px 10px lightgrey;
+    .stars {
+        margin-top: -8px;
     }
 
-    .i.fas.fa-star {
+    i.fas.fa-star {
         font-size: 10px;
     }
 
+    #afficher_plus a {
+        margin: 10% 0 25% 15%;
+    }
+
+    #chart_icon {
+        font-size: 24px;
+        padding-right: 10px;
+    }
+
+    .popular_cards {
+        width: 350px;
+        box-shadow: 2px 2px 10px lightgrey;
+    }
+
+    .title_popular_cards {
+        margin-bottom: -10px;
+    }
+
     #bloc_populaires .stars {
-        bottom: -5px;
+        bottom: -30px;
     }
 
-    .title_popular_cards,
-    .title_hosting_cards,
-    .activities_text_cards {
-        font-size: 16px;
+    .text_popular_cards {
+        margin-left: 10px;
     }
 
-    #titre_hebergements, #titre_populaires, #titre_activites {
-        margin-bottom: 20px;
+    #titre_activites {
+        padding-left: 4%;
     }
-
+   
     #sousbloc_activites1,
     #sousbloc_activites2-3,
     #sousbloc_activites4,
     #sousbloc_activites5-6,
     .activities_medium_card1,
     .activities_small_card1,
-    .activities_small_card2 {
-        width: 300px;
+    .activities_small_card2,
+    .activities_medium_card2,
+    .activities_big_cards {
+        flex-direction: column;
+        height: auto;
+        width: 335px;
+        margin: auto;
     }
 
     .activities_big_cards,
@@ -111,36 +152,25 @@
     .activities_medium_card2,
     .activities_small_card1,
     .activities_small_card2 {
-        height: 219px;
+        margin-top: 5%;
     }
-
-    .activities_big_cards img,
-    .activities_medium_card1 img,
-    .activities_medium_card2 img,
-    .activities_small_card1 img,
-    .activities_small_card2 img {
-        width: 300px;
-    }
-
-    .activities_big_cards,
-    .activities_medium_card1,
-    .activities_medium_card2,
-    .activities_small_card1,
-    .activities_small_card2 {
-        margin: 0 0 5% 0;
-        height: 171px;
-        box-shadow: 2px 2px 10px lightgrey;
+    
+    .photos_activites_smartphone {
+        width: 335px;
     }
 
     .activities_text_cards {
-        top: -60px;
-        width: 300px;
-        height: 60px;
-        padding-left: 3%;
+        height: 20px;
+        margin: 0;
+        padding-left: 15px;
+        position: relative;
+        top: -20px;
+        width: auto;
     }
 
     footer {
         width: 100%;
+        padding-left: 1%;
     }
 
 }
