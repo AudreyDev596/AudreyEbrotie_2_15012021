@@ -1,4 +1,4 @@
-@media (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
     
     main {
         width: 1150px;
@@ -106,20 +106,9 @@
         width: 280px;
     }
 
-    #footer {
-        max-width: 1150px ;
+    #bloc_footer {
+        width: 1150px;
     }
 
-    #apropos {
-        width: 342px;
-    }
-    
-    #noshebergements {
-        width: 342px;
-    }
-    
-    #assistance {
-        width: 342px;
-    }
 
 }   

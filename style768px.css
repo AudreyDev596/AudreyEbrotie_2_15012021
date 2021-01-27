@@ -1,9 +1,5 @@
-@media (max-width: 768px) 
+@media screen and (max-width: 768px) 
 {
-    body {
-        margin: 0 4%;
-    }
-
     main {
         width: 700px;
     }
@@ -226,8 +222,8 @@
         padding-bottom: 5px;
     }
 
-    #footer p {
-        line-height: 130%;
+    #bloc_footer {
+        width: 700px;
     }
 
     

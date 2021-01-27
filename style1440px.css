@@ -1,4 +1,4 @@
-@media (max-width: 1440px) 
+@media screen and (max-width: 1440px) 
 {       
     main {
     width: 1350px;
@@ -104,24 +104,9 @@
         margin-top: -55px;
     }
 
-    #footer {
-        max-width: 1300px;
-        position: absolute;
-        overflow: hidden;
+    #bloc_footer {
+        width: 1350px;
     }
-
-    #apropos {
-        width: 407px;
-    }
-    
-    #noshebergements {
-        width: 407px;
-    }
-    
-    #assistance {
-        width: 407px;
-    }
-
     
 
 }

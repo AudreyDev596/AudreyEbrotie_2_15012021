@@ -1,9 +1,5 @@
-@media (max-width: 650px) 
+@media screen and (max-width: 650px) 
 {
-    body {
-        margin: 0;
-    }
-
     main {
         width: 520px;
     }
@@ -88,7 +84,7 @@
     #bloc_search-form {
         justify-content: center;
         margin: 1em 0 0 0;
-        width: 90%;
+        width: 100%;
     }
 
     #search_Bloc1 {
@@ -306,22 +302,11 @@
         width: auto;
     }
 
-    #footer {
+    #bloc_footer {
+        width: 520px;
+        margin: auto;
+        display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: -40px;
-    }
-
-    #apropos {
-        width: auto;
-    }
-    
-    #noshebergements {
-        width: auto;
-    }
-    
-    #assistance {
-        width: auto;
     }
     
 }

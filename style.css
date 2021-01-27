@@ -28,15 +28,14 @@
     src: url('font/Raleway-Light.ttf') format('truetype');
 }
 
-body, html {
+body {
     font-family: 'Raleway-Light', Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 2% 0 2%;
     padding: 0;
 }
 
 main {
     width: 1500px;
-    margin: 0 auto;
 }
 
 a {
@@ -742,20 +741,29 @@ input:focus::placeholder {
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
-    padding: 1em 4em 1em 4em;
-    position: absolute;
+    left: 0;
+    margin: 0;
     overflow: hidden;
-    max-width: 1500px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#bloc_footer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    min-width: 1500px;
 }
 
 #apropos {
-    width: 457px;
+    width: 33%;
 }
 
 #noshebergements {
-    width: 457px;
+    width: 33%;
 }
 
 #assistance {
-    width: 457px;
+    width: 33%;
 }
