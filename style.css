@@ -250,14 +250,14 @@ input:focus::placeholder {
     color: #0065FC;
     padding: 1em 0.9em 0 0.9em;
     z-index: 99;
-    transition: background-color 1s ease;
-    transition: color 1s ease;
 }
 
 #bloc_economic_filter:hover #economic_icon {
     background-color: #0065FC;
     color: #DEEBFF;
     cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1.3s ease;
 }
 
 #economic_text {
@@ -295,14 +295,14 @@ input:focus::placeholder {
     color: #0065FC;
     padding: 1em 1.2em 0 1.2em;
     z-index: 99;
-    transition: background-color 1s ease;
-    transition: color 1s ease;
 }
 
 #bloc_family_filter:hover #family_icon {
     background-color: #0065FC;
     color: #DEEBFF;
     cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1.3s ease;
 }
 
 #family_text {
@@ -338,14 +338,14 @@ input:focus::placeholder {
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
-    transition: background-color 1s ease;
-    transition: color 1s ease;
 }
 
 #bloc_romantic_filter:hover #romantic_icon {
     background-color: #0065FC;
     color: #DEEBFF;
     cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1.3s ease;
 }
 
 #romantic_text {
@@ -381,14 +381,14 @@ input:focus::placeholder {
     border-radius: 60%;
     z-index: 99;
     color: #0065FC;
-    transition: background-color 1s ease;
-    transition: color 1s ease;
 }
 
 #bloc_pet_filter:hover #pet_icon {
     background-color: #0065FC;
     color: #DEEBFF;
     cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1.3s ease;
 }
 
 #pet_text {
@@ -479,7 +479,7 @@ input:focus::placeholder {
 }
 
 .hosting_cards:hover {
-    transform: scale(1.1);
+    transform: rotate(10deg) scale(1);
 }
 
 .text_hosting_cards {
@@ -666,60 +666,60 @@ input:focus::placeholder {
 
 .activities_big_cards {
     border-radius: 20px;
-    box-shadow: 3px 3px 15px lightgrey;
+    box-shadow: 2px 2px 5px lightgrey;
     height: auto;
     margin: 0 5% 0 0;
     transition: transform 1s ease-in-out;
 }
 
 .activities_big_cards:hover {
-    transform: scale(1.1);
+    transform: translate(0) scale(0.9);
 }
 
 .activities_medium_card1 {
     border-radius: 20px;
-    box-shadow: 3px 3px 15px lightgrey;
-    margin: 0 5% auto auto;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin: 3% 5% 0 auto;
     transition: transform 1s ease-in-out;
 }
 
 .activities_medium_card1:hover {
-    transform: scale(1.1);
+    transform: translate(0) scale(0.9);
 }
 
 .activities_medium_card2 {
     border-radius: 20px;
-    box-shadow: 3px 3px 15px lightgrey;
-    margin: auto 5% 0 auto;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin: auto 5% 3% auto;
     transition: transform 1s ease-in-out;
 }
 
 .activities_medium_card2:hover {
-    transform: scale(1.1);
+    transform: translate(0) scale(0.9);
 }
 
 .activities_small_card1 {
     border-radius: 20px;
-    box-shadow: 3px 3px 15px lightgrey;
+    box-shadow: 2px 2px 5px lightgrey;
     height: auto;
-    margin: auto 5% 0 auto;
+    margin: auto 5% 2% auto;
     transition: transform 1s ease-in-out;
 }
 
 .activities_small_card1:hover {
-    transform: scale(1.1);
+    transform: translate(0) scale(0.9);
 }
 
 .activities_small_card2 {
     border-radius: 20px;
-    box-shadow: 3px 3px 15px lightgrey;
+    box-shadow: 2px 2px 5px lightgrey;
     height: auto;
-    margin: 0 5% 8% auto;
+    margin: 3% 5% 0 auto;
     transition: transform 1s ease-in-out;
 }
 
 .activities_small_card2:hover {
-    transform: scale(1.1);
+    transform: translate(0) scale(0.9);
 }
 
 .activities_text_cards {
