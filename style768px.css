@@ -1,5 +1,4 @@
-@media screen and (max-width: 768px) 
-{
+@media screen and (max-width: 768px) {
     main {
         width: 700px;
     }
@@ -31,7 +30,7 @@
     span {
         font-size: 13px;
     }
-    
+
     #bloc_menu {
         display: flex;
         flex-direction: column-reverse;
@@ -100,9 +99,10 @@
     #titre_filtres {
         width: 8%;
     }
+
     #bloc_filtres {
-    width: 100%;
-    flex-wrap: wrap;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     #bloc_boutons_filtres {
@@ -165,7 +165,7 @@
     }
 
     #div_popular_cards {
-        top: -7px;
+        top: 0px;
     }
 
     #titre_populaires {
@@ -194,6 +194,10 @@
         bottom: -27px;
     }
 
+    #sousbloc_activites1 {
+        margin: 0 5% 0 0;
+    }
+
     .activities_medium_card1,
     .activities_small_card2 {
         margin-bottom: 10px;
@@ -207,25 +211,16 @@
         box-shadow: 2px 2px 10px lightgrey;
     }
 
-    .activities_text_cards {
-        padding-left: 10px;
-        margin-bottom: 10px;
-    }
-
     .photos_activites {
         width: 170px;
     }
 
     .activities_text_cards {
-        height: 25px;
-        margin-top: -20px;
-        padding-bottom: 5px;
+        height: 35px;
+        margin-top: -30px;
     }
 
     #bloc_footer {
         width: 700px;
     }
-
-    
-
 }

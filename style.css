@@ -35,6 +35,7 @@ body {
 }
 
 main {
+    margin: auto;
     width: 1500px;
 }
 
@@ -543,10 +544,10 @@ input:focus::placeholder {
 }
 
 #div_popular_cards {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 14px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: -5px;
 }
 
 .popular_cards {
@@ -661,7 +662,7 @@ input:focus::placeholder {
     display: flex;
     flex-direction: column;
     width: 20%;
-    margin: auto 0 auto 3px;
+    margin: 0 0 0 3px;
 }
 
 .activities_big_cards {
@@ -679,13 +680,22 @@ input:focus::placeholder {
 .activities_medium_card1 {
     border-radius: 20px;
     box-shadow: 2px 2px 5px lightgrey;
-    margin: 3% 5% 0 auto;
+    margin: 0% 5% 0 auto;
     transition: transform 1s ease-in-out;
 }
 
 .activities_medium_card1:hover {
     transform: translate(0) scale(0.9);
 }
+
+.activities_small_card1 {
+    transition: transform 1s ease-in-out;
+    margin: auto 5% 0 auto;
+    height: auto;
+    box-shadow: 2px 2px 5px lightgrey;
+    border-radius: 20px;
+}
+
 
 .activities_medium_card2 {
     border-radius: 20px;
@@ -698,23 +708,24 @@ input:focus::placeholder {
     transform: translate(0) scale(0.9);
 }
 
-.activities_small_card1 {
+.activities_medium_card2 {
     border-radius: 20px;
     box-shadow: 2px 2px 5px lightgrey;
-    height: auto;
-    margin: auto 5% 2% auto;
+    margin: auto 5% 0% auto;
     transition: transform 1s ease-in-out;
 }
-
 .activities_small_card1:hover {
     transform: translate(0) scale(0.9);
 }
+
+
+
 
 .activities_small_card2 {
     border-radius: 20px;
     box-shadow: 2px 2px 5px lightgrey;
     height: auto;
-    margin: 3% 5% 0 auto;
+    margin: 0 5% 0 auto;
     transition: transform 1s ease-in-out;
 }
 
@@ -753,7 +764,7 @@ input:focus::placeholder {
     display: flex;
     flex-direction: row;
     margin: auto;
-    min-width: 1500px;
+    width: 1500px;
 }
 
 #apropos {
