@@ -1,33 +1,28 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="stylesheet" type="text/css" href="style1440px.css" />
-<link rel="stylesheet" type="text/css" href="style1280px.css" />
-<link rel="stylesheet" type="text/css" href="style1024px.css" />
-<link rel="stylesheet" type="text/css" href="style768px.css" />
-<link rel="stylesheet" type="text/css" href="style650px.css" />
-<link rel="stylesheet" type="text/css" href="style375px.css" />
-<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        a {
-            color: black;
-        }
-
-        /* CSS link color */
-    </style>
     <title>Reservia</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style1440px.css" />
+    <link rel="stylesheet" type="text/css" href="style1280px.css" />
+    <link rel="stylesheet" type="text/css" href="style1024px.css" />
+    <link rel="stylesheet" type="text/css" href="style768px.css" />
+    <link rel="stylesheet" type="text/css" href="style650px.css" />
+    <link rel="stylesheet" type="text/css" href="style375px.css" />
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
 </head>
+
 
 <body>
     <main>
         <!-- Header : logo, menu -->
         <div id="bloc_header">
             <div id="bloc_logo">
-                <a id="logo" href="index.html"><img src="images/logo/Reservia.svg"></a>
+                <a id="logo" href="index.html"><img src="images/logo/Reservia.svg" alt="logo Reservia"></a>
 
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <span>En plein centre ville ou en pleine nature<br>
@@ -55,7 +50,7 @@
                 </div>
                 <div id="search_Bloc2">
                     <input type="text" id="ville" name="ville" required minlength="2" maxlength="30" size="26"
-                        placeholder="Marseille, France"></input>
+                        placeholder="Marseille, France" />
                 </div>
                 <div id="search_Bloc3">
                     <div id="search_text">Rechercher</div>
@@ -67,7 +62,7 @@
         <section id="filters">
             <div id="bloc_filtres">
                 <div id="titre_filtres">
-                    Filtres
+                    <h4>Filtres</h4>
                 </div>
                 <div id="bloc_boutons_filtres">
                     <div id="bloc_economic_filter">
@@ -316,80 +311,80 @@
                 <h2>Activités à Marseille</h2>
             </div>
             <div id="bloc_activites">
-                <a href="#">
-                    <div id="sousbloc_activites1">
-                        <div class="activities_big_cards">
-                            <a href="#">
-                                <img src="images/activites/vieux_port.jpg" alt="Vieux Port" class="photos_activites">
-                                <img src="images/activites/smartphone/vieux_port.jpg" alt="Vieux Port"
-                                    class="photos_activites_smartphone">
-                                <div class="activities_text_cards">
-                                    <h4>Vieux Port</h4>
-                                </div>
-                            </a>
-                        </div>
+
+                <div id="sousbloc_activites1">
+                    <div class="activities_big_cards">
+                        <a href="#">
+                            <img src="images/activites/vieux_port.jpg" alt="Vieux Port" class="photos_activites">
+                            <img src="images/activites/smartphone/vieux_port.jpg" alt="Vieux Port"
+                                class="photos_activites_smartphone">
+                            <div class="activities_text_cards">
+                                <h4>Vieux Port</h4>
+                            </div>
+                        </a>
                     </div>
-                    <div id="sousbloc_activites2-3">
-                        <div class="activities_medium_card1">
-                            <a href="#">
-                                <img src="images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues"
-                                    class="photos_activites">
-                                <img src="images/activites/smartphone/fort_de_pomegues.jpg" alt="Fort de Pomègues"
-                                    class="photos_activites_smartphone">
-                                <div class="activities_text_cards">
-                                    <h4>Fort de Pomègues</h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="activities_small_card1">
-                            <a href="#">
-                                <img src="images/activites/iles_du_frioul.jpg" alt="Iles du Frioul"
-                                    class="photos_activites">
-                                <img src="images/activites/smartphone/iles_du_frioul.jpg" alt="Iles du Frioul"
-                                    class="photos_activites_smartphone">
-                                <div class="activities_text_cards">
-                                    <h4>Îles du Frioul</h4>
-                                </div>
-                            </a>
-                        </div>
+                </div>
+                <div id="sousbloc_activites2-3">
+                    <div class="activities_medium_card1">
+                        <a href="#">
+                            <img src="images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues"
+                                class="photos_activites">
+                            <img src="images/activites/smartphone/fort_de_pomegues.jpg" alt="Fort de Pomègues"
+                                class="photos_activites_smartphone">
+                            <div class="activities_text_cards">
+                                <h4>Fort de Pomègues</h4>
+                            </div>
+                        </a>
                     </div>
-                    <div id="sousbloc_activites4">
-                        <div class="activities_big_cards">
-                            <a href="#">
-                                <img src="images/activites/pn_des_calanques.jpg" alt="Parc National des Calanques"
-                                    class="photos_activites">
-                                <img src="images/activites/smartphone/pn_des_calanques.jpg"
-                                    alt="Parc National des Calanques" class="photos_activites_smartphone">
-                                <div class="activities_text_cards">
-                                    <h4>Parc National des Calanques</h4>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="activities_small_card1">
+                        <a href="#">
+                            <img src="images/activites/iles_du_frioul.jpg" alt="Iles du Frioul"
+                                class="photos_activites">
+                            <img src="images/activites/smartphone/iles_du_frioul.jpg" alt="Iles du Frioul"
+                                class="photos_activites_smartphone">
+                            <div class="activities_text_cards">
+                                <h4>Îles du Frioul</h4>
+                            </div>
+                        </a>
                     </div>
-                    <div id="sousbloc_activites5-6">
-                        <div class="activities_small_card2">
-                            <a href="#">
-                                <img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde"
-                                    class="photos_activites">
-                                <img src="images/activites/smartphone/notre_dame_de_la_garde.jpg"
-                                    alt="Notre-Dame-de-la-Garde" class="photos_activites_smartphone">
-                                <div class="activities_text_cards">
-                                    <h4>Notre-Dame-de-la-Garde</h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="activities_medium_card2">
-                            <a href="#">
-                                <img src="images/activites/parc_longchamp.jpg" alt="Parc Longchamp"
-                                    class="photos_activites">
-                                <img src="images/activites/smartphone/parc_longchamp.jpg" alt="Parc Longchamp"
-                                    class="photos_activites_smartphone">
-                                <div class="activities_text_cards">
-                                    <h4>Parc Longchamp
-                                </div>
-                            </a>
-                        </div>
+                </div>
+                <div id="sousbloc_activites4">
+                    <div class="activities_big_cards">
+                        <a href="#">
+                            <img src="images/activites/pn_des_calanques.jpg" alt="Parc National des Calanques"
+                                class="photos_activites">
+                            <img src="images/activites/smartphone/pn_des_calanques.jpg"
+                                alt="Parc National des Calanques" class="photos_activites_smartphone">
+                            <div class="activities_text_cards">
+                                <h4>Parc National des Calanques</h4>
+                            </div>
+                        </a>
                     </div>
+                </div>
+                <div id="sousbloc_activites5-6">
+                    <div class="activities_small_card2">
+                        <a href="#">
+                            <img src="images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde"
+                                class="photos_activites">
+                            <img src="images/activites/smartphone/notre_dame_de_la_garde.jpg"
+                                alt="Notre-Dame-de-la-Garde" class="photos_activites_smartphone">
+                            <div class="activities_text_cards">
+                                <h4>Notre-Dame-de-la-Garde</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="activities_medium_card2">
+                        <a href="#">
+                            <img src="images/activites/parc_longchamp.jpg" alt="Parc Longchamp"
+                                class="photos_activites">
+                            <img src="images/activites/smartphone/parc_longchamp.jpg" alt="Parc Longchamp"
+                                class="photos_activites_smartphone">
+                            <div class="activities_text_cards">
+                                <h4>Parc Longchamp</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -416,11 +411,6 @@
             </div>
         </div>
     </footer>
-    <style type="text/css">
-        a:link {
-            text-decoration: none;
-        }
-    </style>
 
 </body>
 

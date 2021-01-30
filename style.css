@@ -43,6 +43,8 @@ a {
     display: block;
     transition: color 0.6s linear;
     font-family: 'Raleway-Medium';
+    text-decoration: none;
+    color: black;
 }
 
 a:hover {
