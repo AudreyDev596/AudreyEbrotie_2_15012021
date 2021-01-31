@@ -3,8 +3,38 @@
 
     /*Iphone*/
 
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
     main {
-        width: 90%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4.8vw;
+    }
+
+    h3 {
+        font-size: 4.6vw;
+    }
+
+    h4 {
+        font-size: 4.5vw;
+    }
+
+    p {
+        font-size: 4.3;
+    }
+
+    span {
+        font-size: 4.3;
     }
 
     #bloc_search-form {
@@ -39,6 +69,34 @@
         border-radius: 15px;
         margin-left: -20px;
     }
+
+    #bloc_boutons_filtres {
+        margin-top: 5%;
+    }
+
+    #bloc_economic_filter, 
+    #bloc_family_filter, 
+    #bloc_pet_filter, 
+    #bloc_romantic_filter {
+        margin: 2% 3% 0 0;
+    }
+
+    #info_icon {
+        margin: 0 0.5em -0.5em 0em;
+        width: 28px;
+        height: 19px;
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 0;
+    }
+    i.fas.fa-info.fa-xs{
+
+    align-self: center;
+}
+
 
     #hosting {
         margin-top: 20px;
