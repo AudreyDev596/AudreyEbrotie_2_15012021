@@ -2,40 +2,9 @@
 
 
     /*Iphone*/
-    body {
-        margin: 0;
-    }
 
     main {
-        width: 375px;
-    }
-
-    h1 {
-        font-size: 20px;
-        font-family: 'Raleway-Medium';
-    }
-
-    h2 {
-        font-size: 20px;
-        font-family: 'Raleway-Medium';
-    }
-
-    h3 {
-        font-size: 18px;
-        font-family: 'Raleway-Medium';
-    }
-
-    h4 {
-        font-size: 14px;
-        font-family: 'Raleway-Medium';
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    span {
-        font-size: 14px;
+        width: 90%;
     }
 
     #bloc_search-form {
