@@ -1,4 +1,5 @@
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) 
+{
     main {
         width: 90%;
     }
@@ -7,6 +8,34 @@
         display: -ms-flexbox;
         display: flex;
         width: 40%;
+    }
+
+    div#hebergements_menu {
+        margin: 0 15%;
+    }
+
+
+    #inscription_menu {
+        display: -ms-flexbox;
+        display: flex;
+        font-family: 'Raleway-SemiBold';
+        margin: 0 0 0 15%;
+    }
+
+    #inscription_menu a {
+        color: rgba(0, 101, 252, 1);
+    }
+
+    #menu_portable {
+        -ms-flex-pack: end;
+        -webkit-box-pack: end;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #bloc_search-form {
+        width: 60%;
     }
 
     #bloc_filtres {
@@ -129,7 +158,6 @@
         width: 7rem;
     }
 
-    /* Icone info */
     #info {
         -ms-flex-direction: row;
         -webkit-box-direction: normal;
@@ -166,6 +194,14 @@
         font-size: 1rem;
     }
 
+    #bloc_populaires {
+        padding: 1% 1% 2% 1%;
+    }
+
+    .text_popular_cards {
+        width: 60%;
+    }
+
     #sousbloc_activites1,
     #sousbloc_activites4 {
         width: 24%;
@@ -186,51 +222,4 @@
         margin-bottom: 10%;
     }
 
-    div#hebergements_menu {
-        margin: 0 15%;
-    }
-
-    a.current {
-        border-bottom: 2px solid rgba(0, 101, 252, 1);
-        border-top: 0px;
-    }
-
-    .hover_menu {
-        -o-transition: none;
-        -webkit-transition: none;
-        border-bottom: 2px solid rgba(0, 101, 252, 0);
-        border-top: 0;
-        transition: none;
-    }
-
-    #inscription_menu {
-        display: -ms-flexbox;
-        display: flex;
-        font-family: 'Raleway-SemiBold';
-        margin: 0 0 0 15%;
-    }
-
-    #inscription_menu a {
-        color: rgba(0, 101, 252, 1);
-    }
-
-    #menu_portable {
-        -ms-flex-pack: end;
-        -webkit-box-pack: end;
-        display: -ms-flexbox;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    #bloc_search-form {
-        width: 60%;
-    }
-
-    .text_popular_cards {
-        width: 60%;
-    }
-
-    #bloc_populaires {
-        padding: 1% 1% 2% 1%;
-    }
 }
