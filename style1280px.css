@@ -1,109 +1,31 @@
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
     
     main {
         width: 1150px;
     }
 
-    h1 {
-        font-size: 22px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    h4 {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    span {
-        font-size: 17px;
-    }
-
-    #bloc_search-form {
-        width: 45%;
-    }
-
-    #search_Bloc1 {
-        width: 10%;
-        height: 52px;
-    }
-
-    #search_Bloc2 {
-        width: 40%;
-    }
-
-    input {
-        width: 100%;
-        height: 100%;
-    }
-
-    #search_Bloc3 {
-        width: 30%;
-        height: 52px;
-    }
-
-    #bloc_filtres {
-        width: 100%;
-    }
-
-    #bloc_boutons_filtres {
-        width: 65%;
-    }
     #bloc_hebergements {
-        width: 80%;
-    }
-
-    #titre_hebergements {
-        height: 40px;
-        margin: 0 0 2% 2%;
+        width: 85%;
     }
 
     .hosting_cards {
-        width: 210px;
-        height: 170px;
-        margin: 0 auto 2% auto;
+        width: 28%;
     }
 
     .text_hosting_cards {
-        padding: 0.5em 0 0 0.4em;
-        top: -20px;
-    }
-
-    .title_hosting_cards {
-        margin-bottom: -10px;
+        margin-bottom: -2%;
     }
 
     .stars {
-        margin-top: -10px;
+        margin-bottom: 2%;
     }
 
-    #div_popular_cards {
-        top: 7px;
-    }
-
-    #titre_populaires {
-        margin-bottom: 1px;
-    }
-
-    .title_popular_cards {
-        margin-bottom: -10px;
+    #bloc_populaires {
+        width: 30%;
     }
 
     #bloc_populaires .stars {
-        bottom: -5px;
-    }
-
-    .photos_activites {
-        width: 280px;
+        bottom: -2%;
     }
 
     #bloc_footer {
