@@ -1,0 +1,225 @@
+@media screen and (min-width: 768px) and (max-width: 1279px) 
+{
+    main {
+        width: 90%;
+    }
+
+    #bloc_menu {
+        display: -ms-flexbox;
+        display: flex;
+        width: 40%;
+    }
+
+    div#hebergements_menu {
+        margin: 0 15%;
+    }
+
+
+    #inscription_menu {
+        display: -ms-flexbox;
+        display: flex;
+        font-family: 'Raleway-SemiBold';
+        margin: 0 0 0 15%;
+    }
+
+    #inscription_menu a {
+        color: rgba(0, 101, 252, 1);
+    }
+
+    #menu_portable {
+        -ms-flex-pack: end;
+        -webkit-box-pack: end;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #bloc_search-form {
+        width: 60%;
+    }
+
+    #bloc_filtres {
+        width: 100%;
+    }
+
+    #search_Bloc1 {
+        width: 15%;
+        height: 2.5rem;
+    }
+
+    #map_marker_icon {
+        font-size: 0.8rem;
+    }
+
+    #search_Bloc2 {
+        height: 75%;
+        width: 60%;
+    }
+
+    input {
+        height: 100%;
+        width: 100%;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 1.2vw;
+    }
+
+    ::-moz-placeholder {
+        font-size: 1.2vw;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 1.2vw;
+    }
+
+    ::-ms-input-placeholder {
+        font-size: 1.2vw;
+    }
+
+    ::placeholder {
+        font-size: 1.2vw;
+    }
+
+    #search_Bloc3 {
+        height: 2.5rem;
+        width: 30%;
+    }
+
+    #search_text {
+        font-size: 0.8rem;
+    }
+
+    #titre_filtres {
+        width: 8%;
+    }
+
+    #bloc_boutons_filtres {
+        -ms-flex-pack: start;
+        -ms-flex-wrap: wrap;
+        -webkit-box-pack: start;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: auto;
+        width: 90%;
+    }
+
+    #economic_icon {
+        width: 2.3rem;
+        height: 2.3rem;
+        font-size: 0.8rem;
+    }
+
+    #economic_text {
+        font-size: 0.7rem;
+        height: 1.9rem;
+        margin-left: -1.3rem;
+        width: 4.5rem;
+    }
+
+    #family_icon {
+        font-size: 0.8rem;
+        height: 2.3rem;
+        width: 2.3rem;
+    }
+
+    #family_text {
+        font-size: 0.7rem;
+        height: 1.9rem;
+        margin-left: -1.3rem;
+        width: 2.8rem;
+    }
+
+    #romantic_icon {
+        font-size: 0.8rem;
+        height: 2.3rem;
+        width: 2.3rem;
+    }
+
+    #romantic_text {
+        font-size: 0.7rem;
+        height: 1.9rem;
+        margin-left: -1.3rem;
+        width: 4.5rem;
+    }
+
+    #pet_icon {
+        font-size: 0.8rem;
+        height: 2.3rem;
+        width: 2.3rem;
+    }
+
+    #pet_text {
+        font-size: 0.7rem;
+        height: 1.9rem;
+        margin-left: -1.3rem;
+        width: 7rem;
+    }
+
+    #info {
+        -ms-flex-direction: row;
+        -webkit-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        height: 15px;
+    }
+
+    #info_icon {
+        margin: 0 1.5% -1.5% 1.5%;
+        padding: 0.1rem 0.1rem 0 0.6rem;
+    }
+
+    #bloc_hebergements {
+        width: 60%;
+    }
+
+    .hosting_cards {
+        width: 42%;
+    }
+
+    .text_hosting_cards {
+        margin-bottom: -4%;
+    }
+
+    .stars {
+        font-size: 0.6rem;
+        margin-bottom: 1%;
+    }
+
+    #chart_icon {
+        font-size: 1rem;
+    }
+
+    #bloc_populaires {
+        padding: 1% 1% 2% 1%;
+    }
+
+    .text_popular_cards {
+        width: 60%;
+    }
+
+    #sousbloc_activites1,
+    #sousbloc_activites4 {
+        width: 24%;
+    }
+
+    #sousbloc_activites1,
+    #sousbloc_activites2-3,
+    #sousbloc_activites4,
+    #sousbloc_activites5-6 {
+        margin: auto 1.5% auto 0;
+    }
+
+    .activities_medium_card1 {
+        margin-bottom: 10%;
+    }
+
+    .activities_small_card2 {
+        margin-bottom: 10%;
+    }
+
+}
