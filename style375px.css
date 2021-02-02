@@ -200,6 +200,13 @@
         margin: 2% 3% 0 0;
     }
 
+    #economic_text,
+    #family_text,
+    #romantic_text,
+    #pet_text {
+        height: auto; 
+    }
+
     #info {
         height: 15px;
         position: relative;
@@ -297,6 +304,7 @@
 
     #afficher_plus a {
         margin: 10% 0 25% 15%;
+        font-size: 4vw;
     }
 
     #chart_icon {
@@ -416,11 +424,5 @@
         margin: auto;
         width: 305px;
     }
-
-    /**********************************************/
     
-
-    #afficher_plus a {
-        font-size: 4vw;
-    }
 }

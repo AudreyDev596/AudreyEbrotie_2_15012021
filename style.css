@@ -282,22 +282,21 @@ input:focus::placeholder {
     border-bottom-right-radius: 35px;
     border-top-right-radius: 35px;
     border-width: 3px 3px 3px 0;
-    border: solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     margin-left: -1.5rem;
     padding: 0 1em 0 2em;
     font-family: 'Raleway-SemiBold';
     font-size: 0.9rem;
     text-align: center;
     width: 5rem;
-    height: 2.3rem;
+    height: 2.4rem;
     -webkit-transition: background-color 1s ease;
     transition: color 1s ease;
 }
 
 #bloc_economic_filter:hover #economic_text {
     background-color: #DEEBFF;
-    border-width: 3px 3px 3px 0;
-    border: solid #DEEBFF;
+    border: 2px solid #F2F2F2;
     color: #0065FC;
     cursor: pointer;
 }
@@ -333,13 +332,13 @@ input:focus::placeholder {
     border-bottom-right-radius: 35px;
     border-top-right-radius: 35px;
     border-width: 3px 3px 3px 0;
-    border: solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     display: flex;
     font-family: 'Raleway-SemiBold';
     font-size: 0.9rem;
     text-align: center;
     width: 3.5rem;
-    height: 2.3rem;
+    height: 2.4rem;
     margin-left: -1.5rem;
     padding: 0 1em 0 2em;
     -webkit-transition: background-color 1s ease;
@@ -348,8 +347,7 @@ input:focus::placeholder {
 
 #bloc_family_filter:hover #family_text {
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
-    border-width: 3px 3px 3px 0;
+    border: 2px solid #F2F2F2;
     cursor: pointer;
     color: #0065FC;
 }
@@ -385,7 +383,7 @@ input:focus::placeholder {
     border-bottom-right-radius: 35px;
     border-top-right-radius: 35px;
     border-width: 3px 3px 3px 0;
-    border: solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     display: flex;
     font-family: 'Raleway-SemiBold';
     margin-left: -1.5rem;
@@ -393,15 +391,14 @@ input:focus::placeholder {
     font-size: 0.9rem;
     text-align: center;
     width: 4.9rem;
-    height: 2.3rem;
+    height: 2.4rem;
     -webkit-transition: background-color 1s ease;
     transition: color 1s ease;
 }
 
 #bloc_romantic_filter:hover #romantic_text {
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
-    border-width: 3px 3px 3px 0;
+    border: 2px solid #F2F2F2;
     cursor: pointer;
     color: #0065FC;
 }
@@ -436,7 +433,7 @@ input:focus::placeholder {
     border-bottom-right-radius: 35px;
     border-top-right-radius: 35px;
     border-width: 3px 3px 3px 0;
-    border: solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     display: flex;
     font-family: 'Raleway-SemiBold';
     margin-left: -1.5rem;
@@ -444,15 +441,14 @@ input:focus::placeholder {
     font-size: 0.9rem;
     text-align: center;
     width: 8rem;
-    height: 2.3rem;
+    height: 2.4rem;
     -webkit-transition: background-color 1s ease;
     transition: color 1s ease;
 }
 
 #bloc_pet_filter:hover #pet_text {
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
-    border-width: 3px 3px 3px 0;
+    border: 2px solid #F2F2F2;
     cursor: pointer;
     color: #0065FC;
 }
