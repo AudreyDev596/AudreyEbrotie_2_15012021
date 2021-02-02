@@ -4,6 +4,14 @@
         width: 1150px;
     }
 
+    #economic_text,
+    #family_text,
+    #romantic_text,
+    #pet_text {
+        height: 2.5rem; 
+    }
+
+
     #bloc_hebergements {
         width: 85%;
     }
