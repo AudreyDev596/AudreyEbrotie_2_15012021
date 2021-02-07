@@ -1,16 +1,83 @@
-@media screen and (min-width: 768px) and (max-width: 1279px)
-{
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    h1 {
+        font-size: 1.1rem;
+
+    }
+
+    h2 {
+        font-size: 1rem;
+
+    }
+
+    h4 {
+        font-size: 0.75rem;
+
+    }
+
+    p {
+        font-size: 0.7rem;
+
+    }
+
+    a {
+        font-size: 0.9rem;
+
+    }
+
+    span {
+        font-size: 0.8rem;
+
+    }
+
     main {
         width: 90%;
     }
 
-    #bloc_search-form {
+    #bloc_menu {
+        display: -ms-flexbox;
+        display: flex;
         width: 40%;
     }
 
+    #hosting {
+        /*marge entre bloc info et hosting*/
+        margin: 20px 0 0 0;
+    }
+
+    div#hebergements_menu,
+    div#activites_menu {
+        /* margin: 0 15%; Passe en px plutôt qu'en % */
+        margin: 0 15px;
+    }
+
+    #inscription_menu {
+        /* margin: 0 0 0 15%; Passe en px plutôt qu'en %*/
+        display: -ms-flexbox;
+        display: flex;
+        font-family: 'Raleway-SemiBold';
+        margin: 0 15px;
+    }
+
+    #inscription_menu a {
+        color: rgba(0, 101, 252, 1);
+    }
+
+    #menu_portable {
+        -ms-flex-pack: end;
+        -webkit-box-pack: end;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #bloc_search-form {
+        /* width: 60%; */
+        width: 50%;
+    }
+
     #search_Bloc1 {
-        width: 15%;
-        height: 2.5rem;
+        width: 10%;
+        /* height: 2.5rem; */
     }
 
     #map_marker_icon {
@@ -18,140 +85,201 @@
     }
 
     #search_Bloc2 {
-        width: 60%;
-        height: 75%;
+        /* height: 75%; */
+        width: 40%;
     }
 
     input {
+        /* height: 100%; */
         width: 100%;
-        height: 100%;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 0.8rem;
+    }
+
+    ::-moz-placeholder {
+        font-size: 0.8rem;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 0.8rem;
+    }
+
+    ::-ms-input-placeholder {
+        font-size: 0.8rem;
     }
 
     ::placeholder {
-        font-size: 1.2vw;
+        font-size: 0.8rem;
     }
 
     #search_Bloc3 {
-        width: 30%;
-        height: 2.5rem;
+        /* height: 2.5rem; */
+        width: 25%;
     }
 
     #search_text {
         font-size: 0.8rem;
     }
 
-  
-    
+    #bloc_filtres {
+        width: 100%;
+    }
+
     #titre_filtres {
-        width: 8%;
+        /* width: 8%; */
+        width: 50px;
     }
-    
+
     #bloc_boutons_filtres {
-        width: 85%;
+        -ms-flex-pack: start;
+        -ms-flex-wrap: wrap;
+        -webkit-box-pack: start;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: auto;
+        width: 90%;
     }
-    
+
+    #bloc_economic_filter,
+    #bloc_family_filter,
+    #bloc_romantic_filter, 
+    #bloc_pet_filter {
+        margin: 0 2% 0 0;
+    }
+
     #economic_icon {
-        width: 2.3rem;
-        height: 2.3rem;
+        /* height: 2.3rem; */
+        /* width: 2.3rem; */
         font-size: 0.8rem;
+        height: 40px;
+        width: 40px;
     }
-    
+
     #economic_text {
+        /* margin-left: -1.3rem; Passe en px*/
+        /* width: 4.5rem; */
         font-size: 0.7rem;
-        margin-left: -1.3rem;
-        width: 4.5rem;
-        height: 1.9rem;
+        height: auto;
+        margin-left: -20px;
+        width: 70px;
     }
-    
+
     #family_icon {
-        width: 2.3rem;
-        height: 2.3rem;
+        /* height: 2.3rem; */
+        /* width: 2.3rem; */
         font-size: 0.8rem;
+        height: 40px;
+        width: 40px;
     }
-    
+
     #family_text {
+        /* margin-left: -1.3rem; Passe en px*/
+        /* width: 2.8rem; */
         font-size: 0.7rem;
-        margin-left: -1.3rem;
-        width: 2.8rem;
-        height: 1.9rem;
+        height: auto;
+        margin-left: -20px;
+        width: 50px;
     }
-    
+
     #romantic_icon {
-        width: 2.3rem;
-        height: 2.3rem;
+        /* height: 2.3rem; */
+        /* width: 2.3rem; */
         font-size: 0.8rem;
+        height: 40px;
+        width: 40px;
     }
-    
+
     #romantic_text {
+        /* margin-left: -1.3rem; Passe en px*/
+        /* width: 4.5rem; */
         font-size: 0.7rem;
-        margin-left: -1.3rem;
-        width: 4.5rem;
-        height: 1.9rem;
+        height: auto;
+        margin-left: -20px;
+        width: 70px;
     }
-    
+
     #pet_icon {
-        width: 2.3rem;
-        height: 2.3rem;
+        /* height: 2.3rem; */
+        /* width: 2.3rem; */
         font-size: 0.8rem;
+        height: 40px;
+        width: 40px;
     }
-    
+
     #pet_text {
+        /* margin-left: -1.3rem; Passe en px*/
+        /* width: 7rem; */
         font-size: 0.7rem;
-        margin-left: -1.3rem;
-        width: 7rem;
-        height: 1.9rem;
+        height: auto;
+        margin-left: -20px;
+        width: 100px;
     }
-    
-    /* Icone info */
+
     #info {
+        -ms-flex-direction: row;
+        -webkit-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        display: -ms-flexbox;
         display: flex;
         flex-direction: row;
         height: 15px;
     }
-    
-    #info_icon {
-        margin: 0 1.5% -1.5% 1.5%;
-        padding: 0.2% 0 0 1.4%;
-    }
+
+
+
+ 
 
     #bloc_hebergements {
-        width: 60%;
+        padding: 15px;
+        width: 55%;
     }
 
     .hosting_cards {
         width: 42%;
     }
-    
-    .text_hosting_cards {
-        margin-bottom: -4%;
-    }
 
     .stars {
         font-size: 0.6rem;
-        margin-bottom: 1%;
     }
 
     #chart_icon {
         font-size: 1rem;
     }
 
+    #bloc_populaires {
+        /* padding: 1% 1% 2% 1%; */
+        padding: 15px;
+        width: 34%;
+    }
+
+    .title_popular_cards {
+        /*enlever une marge négative du css premier*/
+        margin-bottom: 0;
+    }
+
+    .text_popular_cards {
+        width: 60%;
+    }
+
     #sousbloc_activites1,
-    #sousbloc_activites4
-    {
+    #sousbloc_activites4 {
         width: 24%;
     }
+
     #sousbloc_activites1,
     #sousbloc_activites2-3,
     #sousbloc_activites4,
     #sousbloc_activites5-6 {
-        margin: auto 1.5% auto 0;
+        /* margin: auto 1.5% auto 0; marge auto fait une petite marge n'alignant pas les petits blocs sur les gros*/
+        margin: 0 1.5% 0 0;
     }
 
-    .activities_medium_card1 {
-        margin-bottom: 10%;
+    #bloc_footer {
+        margin-left: 5%;
     }
 
-    .activities_small_card2 {
-        margin-bottom: 10%;
-    }
 }

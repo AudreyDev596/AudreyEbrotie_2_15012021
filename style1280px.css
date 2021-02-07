@@ -1,36 +1,51 @@
-@media screen and (min-width: 1280px) {
-    
+@media screen and (min-width: 1280px) 
+{
     main {
-        width: 1150px;
+        /* width: 1150px; */
+        width: 96%;
+    }
+
+    #economic_text,
+    #family_text,
+    #romantic_text,
+    #pet_text {
+        height: 2.5rem;
     }
 
     #bloc_hebergements {
-        width: 85%;
+        /* width: 85%; */
+        padding: 10px;
+        width: 65%;
+    }
+
+    #titre_hebergements {
+        padding-left : 20px;
     }
 
     .hosting_cards {
         width: 28%;
     }
 
-    .text_hosting_cards {
-        margin-bottom: -2%;
-    }
-
     .stars {
         margin-bottom: 2%;
+    }
+
+    #afficher_plus a {
+        margin: 6rem 0rem 7rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    #div_popular_cards {
+        padding: 10px 8px 0px 8px;
     }
 
     #bloc_populaires {
         width: 30%;
     }
 
-    #bloc_populaires .stars {
-        bottom: -2%;
-    }
+    #titre_populaires {
+        width: 94%;
+        padding-left: 10px;
+    } 
 
-    #bloc_footer {
-        width: 1150px;
-    }
-
-
-}   
+}
