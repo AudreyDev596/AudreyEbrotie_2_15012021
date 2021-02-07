@@ -5,6 +5,13 @@
         width: 96%;
     }
 
+    ::placeholder {
+        font-family: 'Raleway-SemiBold';
+        font-size: 15px;
+        padding-left: 0.8em;
+        color: black;
+    }
+
     #economic_text,
     #family_text,
     #romantic_text,
@@ -36,7 +43,7 @@
     }
 
     #div_popular_cards {
-        padding: 10px 8px 0px 8px;
+        padding: 0px 8px 0px 8px;
     }
 
     #bloc_populaires {
