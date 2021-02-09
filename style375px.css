@@ -1,4 +1,4 @@
-@media screen and /*(min-width: 375px) and*/(max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     /*Iphone*/
     body {
@@ -352,11 +352,6 @@
         padding: 10px;
     }
 
-    #titre_activites {
-        margin: 5% 0 0 5px;
-        width: 100%;
-    }
-
     #bloc_activites {
         -ms-flex-direction: column;
         -webkit-box-direction: normal;
@@ -426,8 +421,6 @@
         display: -webkit-box;
         display: flex;
         flex-direction: column;
-        /* margin: auto; */
-        width: 305px;
         margin: 0 0 0 20px;
     }
 }

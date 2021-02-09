@@ -1211,3 +1211,48 @@ input:focus::placeholder {
     margin: 10px 0;
     width: 33%;
 }
+
+@media screen and (max-width: 375px) {
+    footer {
+        width: 100%;
+    }
+
+    #bloc_footer {
+        -ms-flex-direction: column;
+        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+    #titre_hebergements,
+    #titre_populaires, 
+    #afficher_plus, 
+    #titre_activites {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    #apropos,
+    #noshebergements, 
+    #assistance {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    #bloc_footer {
+        margin: auto;
+        justify-content: center;
+        
+    }
+
+     
+}
