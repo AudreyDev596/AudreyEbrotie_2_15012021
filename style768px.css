@@ -229,10 +229,6 @@
         height: 15px;
     }
 
-
-
- 
-
     #bloc_hebergements {
         padding: 15px;
         width: 55%;
@@ -261,8 +257,8 @@
         margin-bottom: 0;
     }
 
-    .text_popular_cards {
-        width: 60%;
+    .hosting_cards {
+        width: 42%;
     }
 
     #sousbloc_activites1,
