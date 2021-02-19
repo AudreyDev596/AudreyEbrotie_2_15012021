@@ -4,7 +4,6 @@
     body, html {
         margin: 0;
         padding: 0;
-        width: 100%;
     }
 
     main {
@@ -65,10 +64,10 @@
     }
 
     #logo {
-        /* left: 17px; */
         position: absolute;
         top: 17px;
-        margin-left: 17px;
+        left: 17px;
+        width: 20%;
     }
 
     nav {
