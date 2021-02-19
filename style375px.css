@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
 
     /*Iphone*/
-    body {
+    body, html {
         margin: 0;
         padding: 0;
         width: 100%;
@@ -46,28 +46,22 @@
         font-size: 0.98rem;
     }
 
-    #bloc_header {
+    header {
         -ms-flex-direction: column-reverse;
         -webkit-box-direction: reverse;
         -webkit-box-orient: vertical;
         flex-direction: column-reverse;
     }
 
-    #bloc_logo {
+    header {
         -ms-flex-direction: column;
         -webkit-box-direction: normal;
         -webkit-box-orient: vertical;
-        /* -ms-flex-pack: center; */
-        /* -webkit-box-pack: center; */
-        /* justify-content: center; */
-        /* margin-top: 1em; Le navigateur le prends pas en compte*/
         display: -ms-flexbox;
         display: -webkit-box;
         display: flex;
         flex-direction: column;
-        /* margin: auto; */
-        width: 80%;
-        margin: 0 0 0 15px;
+
     }
 
     #logo {
@@ -76,11 +70,12 @@
         top: 17px;
     }
 
-    #bloc_menu {
+    nav {
         width: 100%;
+        margin: 100px 0 40px 0;
     }
 
-    #bloc_menu a {
+    nav a {
         padding: 0 0 15px 0;
     }
 
@@ -91,6 +86,14 @@
 
     a.current {
         border-bottom: 2px solid rgba(0, 101, 252, 1);
+        border-top: none;
+    }
+
+    #activites_menu {
+        border-bottom: 2px solid rgb(236, 236, 236);
+    }
+
+    .hover_menu {
         border-top: none;
     }
 
@@ -115,10 +118,9 @@
         top: 34px;
     }
 
-    #bloc_menu {
-        /* margin: 110px 0 0 0; */
-        margin: 100px 0 40px 0;
-        width: 100%;
+    #main-title {
+        width: 90%;
+        margin: auto;
     }
 
     input {
@@ -155,10 +157,6 @@
     input {
         height: 93%;
         width: 100%;
-    }
-
-    ::placeholder {
-        font-size: 3.5vw;
     }
 
     #search_text {
@@ -273,7 +271,7 @@
     .photos_hebergements_smartphone {
         border-radius: 20px;
         display: inline;
-        width: 335px;
+        width: 100%;
     }
 
     #bloc_hebergements {
@@ -328,7 +326,6 @@
         -webkit-box-shadow: 2px 2px 10px lightgrey;
         box-shadow: 2px 2px 10px lightgrey;
         margin: 2% auto;
-        width: 345px;
     }
 
     .div_photos_populaires {
@@ -377,7 +374,7 @@
         flex-direction: column;
         height: auto;
         margin: auto;
-        width: 335px;
+        width: 100%;
     }
 
     .activities_big_cards,
@@ -397,7 +394,7 @@
     .photos_activites_smartphone {
         border-radius: 20px;
         display: inline;
-        width: 335px;
+        width: 100%;
     }
 
     .activities_text_cards {

@@ -33,7 +33,7 @@
         width: 90%;
     }
 
-    #bloc_menu {
+    nav {
         display: -ms-flexbox;
         display: flex;
         width: 40%;
