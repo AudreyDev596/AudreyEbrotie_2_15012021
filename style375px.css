@@ -65,9 +65,10 @@
     }
 
     #logo {
-        left: 17px;
+        /* left: 17px; */
         position: absolute;
         top: 17px;
+        margin-left: 17px;
     }
 
     nav {

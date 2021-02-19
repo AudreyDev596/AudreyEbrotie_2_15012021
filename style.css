@@ -51,11 +51,11 @@
     font-style: normal;
 }
 
-body,html {
-    /* margin: 0 2% 0 2%; On jouera sur les marges du main*/
+body, html {
     font-family: 'Raleway-Light', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 main {
@@ -1169,9 +1169,8 @@ input:focus::placeholder {
     margin: 0;
     overflow: hidden;
     padding: 0;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    min-width: 375px;
 }
 
 #bloc_footer {
