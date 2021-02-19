@@ -5,16 +5,6 @@
         width: 96%;
     }
 
-<<<<<<< HEAD
-=======
-    ::placeholder {
-        font-family: 'Raleway-SemiBold';
-        font-size: 15px;
-        padding-left: 0.8em;
-        color: black;
-    }
-
->>>>>>> develop
     #economic_text,
     #family_text,
     #romantic_text,
@@ -43,7 +33,6 @@
     #afficher_plus a {
         margin: 6rem 0rem 7rem 1.2rem;
         font-size: 1rem;
-<<<<<<< HEAD
     }
 
     #div_popular_cards {
@@ -59,25 +48,4 @@
         padding-left: 10px;
     } 
 
-=======
-    }
-
-    #div_popular_cards {
-        padding: 0px 8px 0px 8px;
-    }
-
-    #bloc_populaires {
-        width: 30%;
-    }
-
-    #titre_populaires {
-        width: 94%;
-        padding-left: 10px;
-    } 
-
-    #bloc_footer {
-        padding-left: 15px;
-    }
-
->>>>>>> develop
 }
