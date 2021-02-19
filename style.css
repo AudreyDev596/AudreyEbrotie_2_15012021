@@ -173,10 +173,6 @@ a.current {
     border-top: 2px solid rgba(0, 101, 252, 1);
 }
 
-#inscription_menu {
-    padding-top: 1px;
-}
-
 #inscription_menu a {
     font-family: 'Raleway-Bold';
     color: #0065FC;
